@@ -32,7 +32,9 @@ class Url_Extractor {
 		'base'    => array( 'href' ),
 		'img'     => array( 'src', 'usemap', 'longdesc', 'dynsrc', 'lowsrc', 'srcset', 'data-src', 'data-bg' ),
 		'picture' => array( 'src', 'srcset' ),
+		'source'  => array( 'srcset' ),
 		'amp-img' => array( 'src', 'srcset' ),
+		'link'    => array( 'href' ),
 
 		'applet' => array( 'code', 'codebase', 'archive', 'object' ),
 		'area'   => array( 'href' ),
@@ -83,7 +85,6 @@ class Url_Extractor {
 
 		'meta' => array( 'content' ),
 		'link' => array( 'href' ),
-		'atom' => array( 'href' )
 	);
 
 	// /** @const */
