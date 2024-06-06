@@ -1,0 +1,1052 @@
+[2024-04-23 21:02:41] [class-ss-archive-creation-job.php:83] Starting a job; no job is presently running
+[2024-04-23 21:02:41] [class-ss-archive-creation-job.php:84] Here's our task list: setup, fetch_urls, create_zip_archive, wrapup
+[2024-04-23 21:02:41] [class-ss-archive-creation-job.php:98] Pushing first task to queue: setup
+[2024-04-23 21:03:10] [class-ss-archive-creation-job.php:132] Current task: setup
+[2024-04-23 21:03:10] [class-ss-archive-creation-job.php:149] Performing task: setup
+[2024-04-23 21:03:10] [class-ss-task.php:44] Status message: [setup] Setting up
+[2024-04-23 21:03:10] [class-ss-setup-task.php:33] Creating archive directory: C:\Users\jp74h\Local Sites\jessphamme\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1713906161\
+[2024-04-23 21:03:10] [class-ss-setup-task.php:79] Adding origin URL to queue: https://jesspham.me/
+[2024-04-23 21:03:10] [class-ss-setup-task.php:137] File C:\Users\jp74h\Local Sites\jessphamme\app\public\wp-content\plugins\simply-static//src/integrations/simply-cdn/assets/ssh-form-webhook.js exists; adding to queue as: C:/Users/jp74h/Local Sites/jessphamme/app/public/wp-content/plugins/simply-static//src/integrations/simply-cdn/assets/ssh-form-webhook.js
+[2024-04-23 21:03:10] [class-ss-archive-creation-job.php:171] We've found our next task: fetch_urls
+[2024-04-23 21:03:10] [class-ss-archive-creation-job.php:132] Current task: fetch_urls
+[2024-04-23 21:03:10] [class-ss-archive-creation-job.php:149] Performing task: fetch_urls
+[2024-04-23 21:03:10] [class-ss-fetch-urls-task.php:55] Total pages: 2; Pages remaining: 2
+[2024-04-23 21:03:10] [class-ss-fetch-urls-task.php:58] URL: https://jesspham.me/
+[2024-04-23 21:03:10] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 2
+[2024-04-23 21:03:11] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-23 21:03:11] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6628220f01482-F1TQS0.tmp
+[2024-04-23 21:03:11] [class-ss-page-handler.php:38] URL Prepared:https://jesspham.me/?simply_static_page=125
+[2024-04-23 21:03:11] [class-ss-url-fetcher.php:251] Fetching URL: https://jesspham.me/?simply_static_page=125
+[2024-04-23 21:03:11] [class-ss-url-fetcher.php:103] Filesize: 73060 bytes
+[2024-04-23 21:03:11] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-04-23 21:03:11] [class-ss-url-fetcher.php:233] New filename for static page: /index.html
+[2024-04-23 21:03:11] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/6628220f01482-F1TQS0.tmp to C:\Users\jp74h\Local Sites\jessphamme\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1713906161/index.html
+[2024-04-23 21:03:11] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-23 21:03:11] [class-ss-fetch-urls-task.php:144] Adding 39 URLs to the queue
+[2024-04-23 21:03:11] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-23 21:03:11] [class-ss-fetch-urls-task.php:58] URL: C:/Users/jp74h/Local Sites/jessphamme/app/public/wp-content/plugins/simply-static//src/integrations/simply-cdn/assets/ssh-form-webhook.js
+[2024-04-23 21:03:11] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 2
+[2024-04-23 21:03:11] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-23 21:03:11] [class-ss-url-fetcher.php:83] Not fetching URL because it is not a local URL
+[2024-04-23 21:03:11] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 0 of 2 pages/files
+[2024-04-23 21:03:11] [class-ss-archive-creation-job.php:177] We're not done with the fetch_urls task yet
+[2024-04-23 21:03:11] [class-ss-archive-creation-job.php:132] Current task: fetch_urls
+[2024-04-23 21:03:11] [class-ss-archive-creation-job.php:149] Performing task: fetch_urls
+[2024-04-23 21:03:11] [class-ss-fetch-urls-task.php:55] Total pages: 40; Pages remaining: 38
+[2024-04-23 21:03:11] [class-ss-fetch-urls-task.php:58] URL: https://jesspham.me/sample-page/
+[2024-04-23 21:03:11] [class-ss-task.php:58] [PAGES STATUS] Remaining:38; Total: 40
+[2024-04-23 21:03:11] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-23 21:03:11] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6628220fb9278-BjXiJq.tmp
+[2024-04-23 21:03:11] [class-ss-page-handler.php:38] URL Prepared:https://jesspham.me/sample-page/?simply_static_page=127
+[2024-04-23 21:03:11] [class-ss-url-fetcher.php:251] Fetching URL: https://jesspham.me/sample-page/?simply_static_page=127
+[2024-04-23 21:03:41] [class-ss-url-fetcher.php:103] Filesize: 0 bytes
+[2024-04-23 21:03:41] [class-ss-url-fetcher.php:106] We encountered an error when fetching: cURL error 28: Operation timed out after 30003 milliseconds with 0 bytes received
+[2024-04-23 21:03:41] [class-ss-url-fetcher.php:107] object(WP_Error)#944 (3) {  ["errors"]=>  array(1) {    ["http_request_failed"]=>    array(1) {      [0]=>      string(81) "cURL error 28: Operation timed out after 30003 milliseconds with 0 bytes received"    }  }  ["error_data"]=>  array(0) {  }  ["additional_data":protected]=>  array(0) {  }}
+[2024-04-23 21:03:41] [class-ss-fetch-urls-task.php:58] URL: https://jesspham.me/Interests
+[2024-04-23 21:03:41] [class-ss-task.php:58] [PAGES STATUS] Remaining:37; Total: 40
+[2024-04-23 21:03:41] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-23 21:03:41] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6628222dc13b4-YuaYbT.tmp
+[2024-04-23 21:03:41] [class-ss-page-handler.php:38] URL Prepared:https://jesspham.me/Interests?simply_static_page=128
+[2024-04-23 21:03:41] [class-ss-url-fetcher.php:251] Fetching URL: https://jesspham.me/Interests?simply_static_page=128
+[2024-04-23 21:03:41] [class-ss-url-fetcher.php:103] Filesize: 61427 bytes
+[2024-04-23 21:03:41] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
+[2024-04-23 21:03:41] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2024-04-23 21:03:42] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6628222e23fb9-oH2kSD.tmp
+[2024-04-23 21:03:42] [class-ss-url-fetcher.php:251] Fetching URL: https://jesspham.me/Interests
+[2024-04-23 21:04:12] [class-ss-url-fetcher.php:103] Filesize: 0 bytes
+[2024-04-23 21:04:12] [class-ss-url-fetcher.php:106] We encountered an error when fetching: cURL error 28: Operation timed out after 30005 milliseconds with 0 bytes received
+[2024-04-23 21:04:12] [class-ss-url-fetcher.php:107] object(WP_Error)#900 (3) {  ["errors"]=>  array(1) {    ["http_request_failed"]=>    array(1) {      [0]=>      string(81) "cURL error 28: Operation timed out after 30005 milliseconds with 0 bytes received"    }  }  ["error_data"]=>  array(0) {  }  ["additional_data":protected]=>  array(0) {  }}
+[2024-04-23 21:04:12] [class-ss-fetch-urls-task.php:58] URL: https://jesspham.me/About-Me
+[2024-04-23 21:04:12] [class-ss-task.php:58] [PAGES STATUS] Remaining:36; Total: 40
+[2024-04-23 21:04:12] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-23 21:04:12] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6628224c2c196-eEHpIz.tmp
+[2024-04-23 21:04:12] [class-ss-page-handler.php:38] URL Prepared:https://jesspham.me/About-Me?simply_static_page=129
+[2024-04-23 21:04:12] [class-ss-url-fetcher.php:251] Fetching URL: https://jesspham.me/About-Me?simply_static_page=129
+[2024-04-23 21:04:42] [class-ss-url-fetcher.php:103] Filesize: 0 bytes
+[2024-04-23 21:04:42] [class-ss-url-fetcher.php:106] We encountered an error when fetching: cURL error 28: Operation timed out after 30008 milliseconds with 0 bytes received
+[2024-04-23 21:04:42] [class-ss-url-fetcher.php:107] object(WP_Error)#891 (3) {  ["errors"]=>  array(1) {    ["http_request_failed"]=>    array(1) {      [0]=>      string(81) "cURL error 28: Operation timed out after 30008 milliseconds with 0 bytes received"    }  }  ["error_data"]=>  array(0) {  }  ["additional_data":protected]=>  array(0) {  }}
+[2024-04-23 21:04:42] [class-ss-fetch-urls-task.php:58] URL: https://jesspham.me/wp-content/uploads/2024/04/IMG_6083-1-766x1024.jpeg
+[2024-04-23 21:04:42] [class-ss-task.php:58] [PAGES STATUS] Remaining:35; Total: 40
+[2024-04-23 21:04:42] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-23 21:04:42] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6628226a34efb-Ny03XI.tmp
+[2024-04-23 21:04:42] [class-ss-page-handler.php:38] URL Prepared:https://jesspham.me/wp-content/uploads/2024/04/IMG_6083-1-766x1024.jpeg?simply_static_page=130
+[2024-04-23 21:04:42] [class-ss-url-fetcher.php:251] Fetching URL: https://jesspham.me/wp-content/uploads/2024/04/IMG_6083-1-766x1024.jpeg?simply_static_page=130
+[2024-04-23 21:04:42] [class-ss-url-fetcher.php:103] Filesize: 131894 bytes
+[2024-04-23 21:04:42] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-04-23 21:04:42] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/04/IMG_6083-1-766x1024.jpeg
+[2024-04-23 21:04:42] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/6628226a34efb-Ny03XI.tmp to C:\Users\jp74h\Local Sites\jessphamme\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1713906161/wp-content/uploads/2024/04/IMG_6083-1-766x1024.jpeg
+[2024-04-23 21:04:42] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-23 21:04:42] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-23 21:04:42] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-23 21:04:42] [class-ss-fetch-urls-task.php:58] URL: https://jesspham.me/wp-content/uploads/2024/04/IMG_6083-1-225x300.jpeg
+[2024-04-23 21:04:42] [class-ss-task.php:58] [PAGES STATUS] Remaining:34; Total: 40
+[2024-04-23 21:04:42] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-23 21:04:42] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6628226a463fc-Gj6egU.tmp
+[2024-04-23 21:04:42] [class-ss-page-handler.php:38] URL Prepared:https://jesspham.me/wp-content/uploads/2024/04/IMG_6083-1-225x300.jpeg?simply_static_page=131
+[2024-04-23 21:04:42] [class-ss-url-fetcher.php:251] Fetching URL: https://jesspham.me/wp-content/uploads/2024/04/IMG_6083-1-225x300.jpeg?simply_static_page=131
+[2024-04-23 21:04:42] [class-ss-url-fetcher.php:103] Filesize: 20289 bytes
+[2024-04-23 21:04:42] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-04-23 21:04:42] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/04/IMG_6083-1-225x300.jpeg
+[2024-04-23 21:04:42] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/6628226a463fc-Gj6egU.tmp to C:\Users\jp74h\Local Sites\jessphamme\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1713906161/wp-content/uploads/2024/04/IMG_6083-1-225x300.jpeg
+[2024-04-23 21:04:42] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-23 21:04:42] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-23 21:04:42] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-23 21:04:42] [class-ss-fetch-urls-task.php:58] URL: https://jesspham.me/wp-content/uploads/2024/04/IMG_6083-1-768x1026.jpeg
+[2024-04-23 21:04:42] [class-ss-task.php:58] [PAGES STATUS] Remaining:33; Total: 40
+[2024-04-23 21:04:42] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-23 21:04:42] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6628226a5629e-xcTMdS.tmp
+[2024-04-23 21:04:42] [class-ss-page-handler.php:38] URL Prepared:https://jesspham.me/wp-content/uploads/2024/04/IMG_6083-1-768x1026.jpeg?simply_static_page=132
+[2024-04-23 21:04:42] [class-ss-url-fetcher.php:251] Fetching URL: https://jesspham.me/wp-content/uploads/2024/04/IMG_6083-1-768x1026.jpeg?simply_static_page=132
+[2024-04-23 21:04:42] [class-ss-url-fetcher.php:103] Filesize: 132455 bytes
+[2024-04-23 21:04:42] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-04-23 21:04:42] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/04/IMG_6083-1-768x1026.jpeg
+[2024-04-23 21:04:42] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/6628226a5629e-xcTMdS.tmp to C:\Users\jp74h\Local Sites\jessphamme\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1713906161/wp-content/uploads/2024/04/IMG_6083-1-768x1026.jpeg
+[2024-04-23 21:04:42] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-23 21:04:42] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-23 21:04:42] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-23 21:04:42] [class-ss-fetch-urls-task.php:58] URL: https://jesspham.me/wp-content/uploads/2024/04/IMG_6083-1.jpeg
+[2024-04-23 21:04:42] [class-ss-task.php:58] [PAGES STATUS] Remaining:32; Total: 40
+[2024-04-23 21:04:42] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-23 21:04:42] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6628226a6b7ea-fUMhVk.tmp
+[2024-04-23 21:04:42] [class-ss-page-handler.php:38] URL Prepared:https://jesspham.me/wp-content/uploads/2024/04/IMG_6083-1.jpeg?simply_static_page=133
+[2024-04-23 21:04:42] [class-ss-url-fetcher.php:251] Fetching URL: https://jesspham.me/wp-content/uploads/2024/04/IMG_6083-1.jpeg?simply_static_page=133
+[2024-04-23 21:04:42] [class-ss-url-fetcher.php:103] Filesize: 314575 bytes
+[2024-04-23 21:04:42] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-04-23 21:04:42] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/04/IMG_6083-1.jpeg
+[2024-04-23 21:04:42] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/6628226a6b7ea-fUMhVk.tmp to C:\Users\jp74h\Local Sites\jessphamme\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1713906161/wp-content/uploads/2024/04/IMG_6083-1.jpeg
+[2024-04-23 21:04:42] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-23 21:04:42] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-23 21:04:42] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-23 21:04:42] [class-ss-fetch-urls-task.php:58] URL: https://jesspham.me/wp-content/uploads/2024/04/java-1024x1024.webp
+[2024-04-23 21:04:42] [class-ss-task.php:58] [PAGES STATUS] Remaining:31; Total: 40
+[2024-04-23 21:04:42] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-23 21:04:42] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6628226a7dcbd-IotNw9.tmp
+[2024-04-23 21:04:42] [class-ss-page-handler.php:38] URL Prepared:https://jesspham.me/wp-content/uploads/2024/04/java-1024x1024.webp?simply_static_page=134
+[2024-04-23 21:04:42] [class-ss-url-fetcher.php:251] Fetching URL: https://jesspham.me/wp-content/uploads/2024/04/java-1024x1024.webp?simply_static_page=134
+[2024-04-23 21:04:42] [class-ss-url-fetcher.php:103] Filesize: 17712 bytes
+[2024-04-23 21:04:42] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/webp
+[2024-04-23 21:04:42] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/04/java-1024x1024.webp
+[2024-04-23 21:04:42] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/6628226a7dcbd-IotNw9.tmp to C:\Users\jp74h\Local Sites\jessphamme\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1713906161/wp-content/uploads/2024/04/java-1024x1024.webp
+[2024-04-23 21:04:42] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-23 21:04:42] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-23 21:04:42] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-23 21:04:42] [class-ss-fetch-urls-task.php:58] URL: https://jesspham.me/wp-content/uploads/2024/04/java-300x300.webp
+[2024-04-23 21:04:42] [class-ss-task.php:58] [PAGES STATUS] Remaining:30; Total: 40
+[2024-04-23 21:04:42] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-23 21:04:42] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6628226a8bfa9-ozWNEO.tmp
+[2024-04-23 21:04:42] [class-ss-page-handler.php:38] URL Prepared:https://jesspham.me/wp-content/uploads/2024/04/java-300x300.webp?simply_static_page=135
+[2024-04-23 21:04:42] [class-ss-url-fetcher.php:251] Fetching URL: https://jesspham.me/wp-content/uploads/2024/04/java-300x300.webp?simply_static_page=135
+[2024-04-23 21:04:42] [class-ss-url-fetcher.php:103] Filesize: 4822 bytes
+[2024-04-23 21:04:42] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/webp
+[2024-04-23 21:04:42] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/04/java-300x300.webp
+[2024-04-23 21:04:42] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/6628226a8bfa9-ozWNEO.tmp to C:\Users\jp74h\Local Sites\jessphamme\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1713906161/wp-content/uploads/2024/04/java-300x300.webp
+[2024-04-23 21:04:42] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-23 21:04:42] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-23 21:04:42] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-23 21:04:42] [class-ss-fetch-urls-task.php:58] URL: https://jesspham.me/wp-content/uploads/2024/04/java-150x150.webp
+[2024-04-23 21:04:42] [class-ss-task.php:58] [PAGES STATUS] Remaining:29; Total: 40
+[2024-04-23 21:04:42] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-23 21:04:42] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6628226aa0824-AxqXyV.tmp
+[2024-04-23 21:04:42] [class-ss-page-handler.php:38] URL Prepared:https://jesspham.me/wp-content/uploads/2024/04/java-150x150.webp?simply_static_page=136
+[2024-04-23 21:04:42] [class-ss-url-fetcher.php:251] Fetching URL: https://jesspham.me/wp-content/uploads/2024/04/java-150x150.webp?simply_static_page=136
+[2024-04-23 21:04:42] [class-ss-url-fetcher.php:103] Filesize: 2372 bytes
+[2024-04-23 21:04:42] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/webp
+[2024-04-23 21:04:42] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/04/java-150x150.webp
+[2024-04-23 21:04:42] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/6628226aa0824-AxqXyV.tmp to C:\Users\jp74h\Local Sites\jessphamme\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1713906161/wp-content/uploads/2024/04/java-150x150.webp
+[2024-04-23 21:04:42] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-23 21:04:42] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-23 21:04:42] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-23 21:04:42] [class-ss-fetch-urls-task.php:58] URL: https://jesspham.me/wp-content/uploads/2024/04/java-768x768.webp
+[2024-04-23 21:04:42] [class-ss-task.php:58] [PAGES STATUS] Remaining:28; Total: 40
+[2024-04-23 21:04:42] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-23 21:04:42] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6628226ab3613-3Va5HE.tmp
+[2024-04-23 21:04:42] [class-ss-page-handler.php:38] URL Prepared:https://jesspham.me/wp-content/uploads/2024/04/java-768x768.webp?simply_static_page=137
+[2024-04-23 21:04:42] [class-ss-url-fetcher.php:251] Fetching URL: https://jesspham.me/wp-content/uploads/2024/04/java-768x768.webp?simply_static_page=137
+[2024-04-23 21:04:42] [class-ss-url-fetcher.php:103] Filesize: 13136 bytes
+[2024-04-23 21:04:42] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/webp
+[2024-04-23 21:04:42] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/04/java-768x768.webp
+[2024-04-23 21:04:42] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/6628226ab3613-3Va5HE.tmp to C:\Users\jp74h\Local Sites\jessphamme\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1713906161/wp-content/uploads/2024/04/java-768x768.webp
+[2024-04-23 21:04:42] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-23 21:04:42] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-23 21:04:42] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-23 21:04:42] [class-ss-fetch-urls-task.php:58] URL: https://jesspham.me/wp-content/uploads/2024/04/java-1536x1536.webp
+[2024-04-23 21:04:42] [class-ss-task.php:58] [PAGES STATUS] Remaining:27; Total: 40
+[2024-04-23 21:04:42] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-23 21:04:42] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6628226ac5ad5-GYM5EU.tmp
+[2024-04-23 21:04:42] [class-ss-page-handler.php:38] URL Prepared:https://jesspham.me/wp-content/uploads/2024/04/java-1536x1536.webp?simply_static_page=138
+[2024-04-23 21:04:42] [class-ss-url-fetcher.php:251] Fetching URL: https://jesspham.me/wp-content/uploads/2024/04/java-1536x1536.webp?simply_static_page=138
+[2024-04-23 21:04:42] [class-ss-url-fetcher.php:103] Filesize: 27060 bytes
+[2024-04-23 21:04:42] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/webp
+[2024-04-23 21:04:42] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/04/java-1536x1536.webp
+[2024-04-23 21:04:42] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/6628226ac5ad5-GYM5EU.tmp to C:\Users\jp74h\Local Sites\jessphamme\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1713906161/wp-content/uploads/2024/04/java-1536x1536.webp
+[2024-04-23 21:04:42] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-23 21:04:42] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-23 21:04:42] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-23 21:04:42] [class-ss-fetch-urls-task.php:58] URL: https://jesspham.me/wp-content/uploads/2024/04/java.webp
+[2024-04-23 21:04:42] [class-ss-task.php:58] [PAGES STATUS] Remaining:26; Total: 40
+[2024-04-23 21:04:42] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-23 21:04:42] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6628226ad73ab-BYFWWZ.tmp
+[2024-04-23 21:04:42] [class-ss-page-handler.php:38] URL Prepared:https://jesspham.me/wp-content/uploads/2024/04/java.webp?simply_static_page=139
+[2024-04-23 21:04:42] [class-ss-url-fetcher.php:251] Fetching URL: https://jesspham.me/wp-content/uploads/2024/04/java.webp?simply_static_page=139
+[2024-04-23 21:04:42] [class-ss-url-fetcher.php:103] Filesize: 28256 bytes
+[2024-04-23 21:04:42] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/webp
+[2024-04-23 21:04:42] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/04/java.webp
+[2024-04-23 21:04:42] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/6628226ad73ab-BYFWWZ.tmp to C:\Users\jp74h\Local Sites\jessphamme\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1713906161/wp-content/uploads/2024/04/java.webp
+[2024-04-23 21:04:42] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-23 21:04:42] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-23 21:04:42] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-23 21:04:42] [class-ss-fetch-urls-task.php:58] URL: https://jesspham.me/wp-content/uploads/2024/04/c-911x1024.webp
+[2024-04-23 21:04:42] [class-ss-task.php:58] [PAGES STATUS] Remaining:25; Total: 40
+[2024-04-23 21:04:42] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-23 21:04:42] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6628226ae8b93-jJpcYE.tmp
+[2024-04-23 21:04:42] [class-ss-page-handler.php:38] URL Prepared:https://jesspham.me/wp-content/uploads/2024/04/c-911x1024.webp?simply_static_page=140
+[2024-04-23 21:04:42] [class-ss-url-fetcher.php:251] Fetching URL: https://jesspham.me/wp-content/uploads/2024/04/c-911x1024.webp?simply_static_page=140
+[2024-04-23 21:04:43] [class-ss-url-fetcher.php:103] Filesize: 31802 bytes
+[2024-04-23 21:04:43] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/webp
+[2024-04-23 21:04:43] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/04/c-911x1024.webp
+[2024-04-23 21:04:43] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/6628226ae8b93-jJpcYE.tmp to C:\Users\jp74h\Local Sites\jessphamme\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1713906161/wp-content/uploads/2024/04/c-911x1024.webp
+[2024-04-23 21:04:43] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-23 21:04:43] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-23 21:04:43] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-23 21:04:43] [class-ss-fetch-urls-task.php:58] URL: https://jesspham.me/wp-content/uploads/2024/04/c-267x300.webp
+[2024-04-23 21:04:43] [class-ss-task.php:58] [PAGES STATUS] Remaining:24; Total: 40
+[2024-04-23 21:04:43] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-23 21:04:43] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6628226b05738-m6Losp.tmp
+[2024-04-23 21:04:43] [class-ss-page-handler.php:38] URL Prepared:https://jesspham.me/wp-content/uploads/2024/04/c-267x300.webp?simply_static_page=141
+[2024-04-23 21:04:43] [class-ss-url-fetcher.php:251] Fetching URL: https://jesspham.me/wp-content/uploads/2024/04/c-267x300.webp?simply_static_page=141
+[2024-04-23 21:04:43] [class-ss-url-fetcher.php:103] Filesize: 9128 bytes
+[2024-04-23 21:04:43] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/webp
+[2024-04-23 21:04:43] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/04/c-267x300.webp
+[2024-04-23 21:04:43] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/6628226b05738-m6Losp.tmp to C:\Users\jp74h\Local Sites\jessphamme\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1713906161/wp-content/uploads/2024/04/c-267x300.webp
+[2024-04-23 21:04:43] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-23 21:04:43] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-23 21:04:43] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-23 21:04:43] [class-ss-fetch-urls-task.php:58] URL: https://jesspham.me/wp-content/uploads/2024/04/c-768x863.webp
+[2024-04-23 21:04:43] [class-ss-task.php:58] [PAGES STATUS] Remaining:23; Total: 40
+[2024-04-23 21:04:43] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-23 21:04:43] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6628226b169fc-zoIniC.tmp
+[2024-04-23 21:04:43] [class-ss-page-handler.php:38] URL Prepared:https://jesspham.me/wp-content/uploads/2024/04/c-768x863.webp?simply_static_page=142
+[2024-04-23 21:04:43] [class-ss-url-fetcher.php:251] Fetching URL: https://jesspham.me/wp-content/uploads/2024/04/c-768x863.webp?simply_static_page=142
+[2024-04-23 21:04:43] [class-ss-url-fetcher.php:103] Filesize: 26352 bytes
+[2024-04-23 21:04:43] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/webp
+[2024-04-23 21:04:43] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/04/c-768x863.webp
+[2024-04-23 21:04:43] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/6628226b169fc-zoIniC.tmp to C:\Users\jp74h\Local Sites\jessphamme\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1713906161/wp-content/uploads/2024/04/c-768x863.webp
+[2024-04-23 21:04:43] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-23 21:04:43] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-23 21:04:43] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-23 21:04:43] [class-ss-fetch-urls-task.php:58] URL: https://jesspham.me/wp-content/uploads/2024/04/c.webp
+[2024-04-23 21:04:43] [class-ss-task.php:58] [PAGES STATUS] Remaining:22; Total: 40
+[2024-04-23 21:04:43] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-23 21:04:43] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6628226b27f0c-XT3e5b.tmp
+[2024-04-23 21:04:43] [class-ss-page-handler.php:38] URL Prepared:https://jesspham.me/wp-content/uploads/2024/04/c.webp?simply_static_page=143
+[2024-04-23 21:04:43] [class-ss-url-fetcher.php:251] Fetching URL: https://jesspham.me/wp-content/uploads/2024/04/c.webp?simply_static_page=143
+[2024-04-23 21:04:43] [class-ss-url-fetcher.php:103] Filesize: 17308 bytes
+[2024-04-23 21:04:43] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/webp
+[2024-04-23 21:04:43] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/04/c.webp
+[2024-04-23 21:04:43] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/6628226b27f0c-XT3e5b.tmp to C:\Users\jp74h\Local Sites\jessphamme\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1713906161/wp-content/uploads/2024/04/c.webp
+[2024-04-23 21:04:43] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-23 21:04:43] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-23 21:04:43] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-23 21:04:43] [class-ss-fetch-urls-task.php:58] URL: https://jesspham.me/wp-content/uploads/2024/04/c-1.png
+[2024-04-23 21:04:43] [class-ss-task.php:58] [PAGES STATUS] Remaining:21; Total: 40
+[2024-04-23 21:04:43] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-23 21:04:43] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6628226b3da41-CNUaju.tmp
+[2024-04-23 21:04:43] [class-ss-page-handler.php:38] URL Prepared:https://jesspham.me/wp-content/uploads/2024/04/c-1.png?simply_static_page=144
+[2024-04-23 21:04:43] [class-ss-url-fetcher.php:251] Fetching URL: https://jesspham.me/wp-content/uploads/2024/04/c-1.png?simply_static_page=144
+[2024-04-23 21:04:43] [class-ss-url-fetcher.php:103] Filesize: 18369 bytes
+[2024-04-23 21:04:43] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-04-23 21:04:43] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/04/c-1.png
+[2024-04-23 21:04:43] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/6628226b3da41-CNUaju.tmp to C:\Users\jp74h\Local Sites\jessphamme\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1713906161/wp-content/uploads/2024/04/c-1.png
+[2024-04-23 21:04:43] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-23 21:04:43] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-23 21:04:43] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-23 21:04:43] [class-ss-fetch-urls-task.php:58] URL: https://jesspham.me/wp-content/uploads/2024/04/c-1-300x300.png
+[2024-04-23 21:04:43] [class-ss-task.php:58] [PAGES STATUS] Remaining:20; Total: 40
+[2024-04-23 21:04:43] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-23 21:04:43] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6628226b53979-OwsUY4.tmp
+[2024-04-23 21:04:43] [class-ss-page-handler.php:38] URL Prepared:https://jesspham.me/wp-content/uploads/2024/04/c-1-300x300.png?simply_static_page=145
+[2024-04-23 21:04:43] [class-ss-url-fetcher.php:251] Fetching URL: https://jesspham.me/wp-content/uploads/2024/04/c-1-300x300.png?simply_static_page=145
+[2024-04-23 21:04:43] [class-ss-url-fetcher.php:103] Filesize: 16492 bytes
+[2024-04-23 21:04:43] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-04-23 21:04:43] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/04/c-1-300x300.png
+[2024-04-23 21:04:43] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/6628226b53979-OwsUY4.tmp to C:\Users\jp74h\Local Sites\jessphamme\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1713906161/wp-content/uploads/2024/04/c-1-300x300.png
+[2024-04-23 21:04:43] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-23 21:04:43] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-23 21:04:43] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-23 21:04:43] [class-ss-fetch-urls-task.php:58] URL: https://jesspham.me/wp-content/uploads/2024/04/c-1-150x150.png
+[2024-04-23 21:04:43] [class-ss-task.php:58] [PAGES STATUS] Remaining:19; Total: 40
+[2024-04-23 21:04:43] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-23 21:04:43] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6628226b64f27-4licQb.tmp
+[2024-04-23 21:04:43] [class-ss-page-handler.php:38] URL Prepared:https://jesspham.me/wp-content/uploads/2024/04/c-1-150x150.png?simply_static_page=146
+[2024-04-23 21:04:43] [class-ss-url-fetcher.php:251] Fetching URL: https://jesspham.me/wp-content/uploads/2024/04/c-1-150x150.png?simply_static_page=146
+[2024-04-23 21:04:43] [class-ss-url-fetcher.php:103] Filesize: 7391 bytes
+[2024-04-23 21:04:43] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-04-23 21:04:43] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/04/c-1-150x150.png
+[2024-04-23 21:04:43] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/6628226b64f27-4licQb.tmp to C:\Users\jp74h\Local Sites\jessphamme\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1713906161/wp-content/uploads/2024/04/c-1-150x150.png
+[2024-04-23 21:04:43] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-23 21:04:43] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-23 21:04:43] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-23 21:04:43] [class-ss-fetch-urls-task.php:58] URL: http://jesspham.me/wp-content/uploads/2024/04/producing-1024x597.jpeg
+[2024-04-23 21:04:43] [class-ss-task.php:58] [PAGES STATUS] Remaining:18; Total: 40
+[2024-04-23 21:04:43] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-23 21:04:43] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6628226b763c7-UsXXyy.tmp
+[2024-04-23 21:04:43] [class-ss-page-handler.php:38] URL Prepared:http://jesspham.me/wp-content/uploads/2024/04/producing-1024x597.jpeg?simply_static_page=147
+[2024-04-23 21:04:43] [class-ss-url-fetcher.php:251] Fetching URL: http://jesspham.me/wp-content/uploads/2024/04/producing-1024x597.jpeg?simply_static_page=147
+[2024-04-23 21:04:43] [class-ss-url-fetcher.php:103] Filesize: 99148 bytes
+[2024-04-23 21:04:43] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-04-23 21:04:43] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/04/producing-1024x597.jpeg
+[2024-04-23 21:04:43] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/6628226b763c7-UsXXyy.tmp to C:\Users\jp74h\Local Sites\jessphamme\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1713906161/wp-content/uploads/2024/04/producing-1024x597.jpeg
+[2024-04-23 21:04:43] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-23 21:04:43] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-23 21:04:43] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-23 21:04:43] [class-ss-fetch-urls-task.php:58] URL: https://jesspham.me/wp-content/uploads/2024/04/producing-1024x597.jpeg
+[2024-04-23 21:04:43] [class-ss-task.php:58] [PAGES STATUS] Remaining:17; Total: 40
+[2024-04-23 21:04:43] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-23 21:04:43] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6628226b808f2-6ob2gg.tmp
+[2024-04-23 21:04:43] [class-ss-page-handler.php:38] URL Prepared:https://jesspham.me/wp-content/uploads/2024/04/producing-1024x597.jpeg?simply_static_page=148
+[2024-04-23 21:04:43] [class-ss-url-fetcher.php:251] Fetching URL: https://jesspham.me/wp-content/uploads/2024/04/producing-1024x597.jpeg?simply_static_page=148
+[2024-04-23 21:04:43] [class-ss-url-fetcher.php:103] Filesize: 99148 bytes
+[2024-04-23 21:04:43] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-04-23 21:04:43] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/04/producing-1024x597.jpeg
+[2024-04-23 21:04:43] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/6628226b808f2-6ob2gg.tmp to C:\Users\jp74h\Local Sites\jessphamme\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1713906161/wp-content/uploads/2024/04/producing-1024x597.jpeg
+[2024-04-23 21:04:43] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-23 21:04:43] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-23 21:04:43] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-23 21:04:43] [class-ss-fetch-urls-task.php:58] URL: https://jesspham.me/wp-content/uploads/2024/04/producing-300x175.jpeg
+[2024-04-23 21:04:43] [class-ss-task.php:58] [PAGES STATUS] Remaining:16; Total: 40
+[2024-04-23 21:04:43] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-23 21:04:43] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6628226b937e0-hxJZmc.tmp
+[2024-04-23 21:04:43] [class-ss-page-handler.php:38] URL Prepared:https://jesspham.me/wp-content/uploads/2024/04/producing-300x175.jpeg?simply_static_page=149
+[2024-04-23 21:04:43] [class-ss-url-fetcher.php:251] Fetching URL: https://jesspham.me/wp-content/uploads/2024/04/producing-300x175.jpeg?simply_static_page=149
+[2024-04-23 21:04:43] [class-ss-url-fetcher.php:103] Filesize: 14266 bytes
+[2024-04-23 21:04:43] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-04-23 21:04:43] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/04/producing-300x175.jpeg
+[2024-04-23 21:04:43] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/6628226b937e0-hxJZmc.tmp to C:\Users\jp74h\Local Sites\jessphamme\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1713906161/wp-content/uploads/2024/04/producing-300x175.jpeg
+[2024-04-23 21:04:43] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-23 21:04:43] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-23 21:04:43] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-23 21:04:43] [class-ss-fetch-urls-task.php:58] URL: https://jesspham.me/wp-content/uploads/2024/04/producing-768x448.jpeg
+[2024-04-23 21:04:43] [class-ss-task.php:58] [PAGES STATUS] Remaining:15; Total: 40
+[2024-04-23 21:04:43] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-23 21:04:43] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6628226ba469d-evz4r0.tmp
+[2024-04-23 21:04:43] [class-ss-page-handler.php:38] URL Prepared:https://jesspham.me/wp-content/uploads/2024/04/producing-768x448.jpeg?simply_static_page=150
+[2024-04-23 21:04:43] [class-ss-url-fetcher.php:251] Fetching URL: https://jesspham.me/wp-content/uploads/2024/04/producing-768x448.jpeg?simply_static_page=150
+[2024-04-23 21:04:43] [class-ss-url-fetcher.php:103] Filesize: 63616 bytes
+[2024-04-23 21:04:43] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-04-23 21:04:43] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/04/producing-768x448.jpeg
+[2024-04-23 21:04:43] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/6628226ba469d-evz4r0.tmp to C:\Users\jp74h\Local Sites\jessphamme\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1713906161/wp-content/uploads/2024/04/producing-768x448.jpeg
+[2024-04-23 21:04:43] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-23 21:04:43] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-23 21:04:43] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-23 21:04:43] [class-ss-fetch-urls-task.php:58] URL: https://jesspham.me/wp-content/uploads/2024/04/producing-1536x896.jpeg
+[2024-04-23 21:04:43] [class-ss-task.php:58] [PAGES STATUS] Remaining:14; Total: 40
+[2024-04-23 21:04:43] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-23 21:04:43] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6628226bba0c4-dHGPUU.tmp
+[2024-04-23 21:04:43] [class-ss-page-handler.php:38] URL Prepared:https://jesspham.me/wp-content/uploads/2024/04/producing-1536x896.jpeg?simply_static_page=151
+[2024-04-23 21:04:43] [class-ss-url-fetcher.php:251] Fetching URL: https://jesspham.me/wp-content/uploads/2024/04/producing-1536x896.jpeg?simply_static_page=151
+[2024-04-23 21:04:43] [class-ss-url-fetcher.php:103] Filesize: 178370 bytes
+[2024-04-23 21:04:43] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-04-23 21:04:43] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/04/producing-1536x896.jpeg
+[2024-04-23 21:04:43] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/6628226bba0c4-dHGPUU.tmp to C:\Users\jp74h\Local Sites\jessphamme\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1713906161/wp-content/uploads/2024/04/producing-1536x896.jpeg
+[2024-04-23 21:04:43] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-23 21:04:43] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-23 21:04:43] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-23 21:04:43] [class-ss-fetch-urls-task.php:58] URL: https://jesspham.me/wp-content/uploads/2024/04/producing-2048x1195.jpeg
+[2024-04-23 21:04:43] [class-ss-task.php:58] [PAGES STATUS] Remaining:13; Total: 40
+[2024-04-23 21:04:43] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-23 21:04:43] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6628226bcb499-xe6hW1.tmp
+[2024-04-23 21:04:43] [class-ss-page-handler.php:38] URL Prepared:https://jesspham.me/wp-content/uploads/2024/04/producing-2048x1195.jpeg?simply_static_page=152
+[2024-04-23 21:04:43] [class-ss-url-fetcher.php:251] Fetching URL: https://jesspham.me/wp-content/uploads/2024/04/producing-2048x1195.jpeg?simply_static_page=152
+[2024-04-23 21:04:43] [class-ss-url-fetcher.php:103] Filesize: 270704 bytes
+[2024-04-23 21:04:43] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-04-23 21:04:43] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/04/producing-2048x1195.jpeg
+[2024-04-23 21:04:43] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/6628226bcb499-xe6hW1.tmp to C:\Users\jp74h\Local Sites\jessphamme\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1713906161/wp-content/uploads/2024/04/producing-2048x1195.jpeg
+[2024-04-23 21:04:43] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-23 21:04:43] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-23 21:04:43] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-23 21:04:43] [class-ss-fetch-urls-task.php:58] URL: https://jesspham.me/feed/
+[2024-04-23 21:04:43] [class-ss-task.php:58] [PAGES STATUS] Remaining:12; Total: 40
+[2024-04-23 21:04:43] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-23 21:04:43] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6628226bdb462-PRrbko.tmp
+[2024-04-23 21:04:43] [class-ss-page-handler.php:38] URL Prepared:https://jesspham.me/feed/?simply_static_page=153
+[2024-04-23 21:04:43] [class-ss-url-fetcher.php:251] Fetching URL: https://jesspham.me/feed/?simply_static_page=153
+[2024-04-23 21:05:13] [class-ss-url-fetcher.php:103] Filesize: 0 bytes
+[2024-04-23 21:05:13] [class-ss-url-fetcher.php:106] We encountered an error when fetching: cURL error 28: Operation timed out after 30014 milliseconds with 0 bytes received
+[2024-04-23 21:05:13] [class-ss-url-fetcher.php:107] object(WP_Error)#958 (3) {  ["errors"]=>  array(1) {    ["http_request_failed"]=>    array(1) {      [0]=>      string(81) "cURL error 28: Operation timed out after 30014 milliseconds with 0 bytes received"    }  }  ["error_data"]=>  array(0) {  }  ["additional_data":protected]=>  array(0) {  }}
+[2024-04-23 21:05:13] [class-ss-fetch-urls-task.php:58] URL: https://jesspham.me/comments/feed/
+[2024-04-23 21:05:13] [class-ss-task.php:58] [PAGES STATUS] Remaining:11; Total: 40
+[2024-04-23 21:05:13] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-23 21:05:13] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/66282289e5c7f-lyDs7l.tmp
+[2024-04-23 21:05:13] [class-ss-page-handler.php:38] URL Prepared:https://jesspham.me/comments/feed/?simply_static_page=154
+[2024-04-23 21:05:13] [class-ss-url-fetcher.php:251] Fetching URL: https://jesspham.me/comments/feed/?simply_static_page=154
+[2024-04-23 21:05:14] [class-ss-url-fetcher.php:103] Filesize: 1633 bytes
+[2024-04-23 21:05:14] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-04-23 21:05:14] [class-ss-url-fetcher.php:233] New filename for static page: /comments/feed/index.xml
+[2024-04-23 21:05:14] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/66282289e5c7f-lyDs7l.tmp to C:\Users\jp74h\Local Sites\jessphamme\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1713906161/comments/feed/index.xml
+[2024-04-23 21:05:14] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-23 21:05:14] [class-ss-fetch-urls-task.php:144] Adding 4 URLs to the queue
+[2024-04-23 21:05:14] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-23 21:05:14] [class-ss-fetch-urls-task.php:58] URL: https://jesspham.me/wp-includes/blocks/navigation/style.min.css
+[2024-04-23 21:05:14] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 40
+[2024-04-23 21:05:14] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-23 21:05:14] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6628228a28ed0-qZ4RFy.tmp
+[2024-04-23 21:05:14] [class-ss-page-handler.php:38] URL Prepared:https://jesspham.me/wp-includes/blocks/navigation/style.min.css?simply_static_page=155
+[2024-04-23 21:05:14] [class-ss-url-fetcher.php:251] Fetching URL: https://jesspham.me/wp-includes/blocks/navigation/style.min.css?simply_static_page=155
+[2024-04-23 21:05:14] [class-ss-url-fetcher.php:103] Filesize: 16484 bytes
+[2024-04-23 21:05:14] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-04-23 21:05:14] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/blocks/navigation/style.min.css
+[2024-04-23 21:05:14] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/6628228a28ed0-qZ4RFy.tmp to C:\Users\jp74h\Local Sites\jessphamme\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1713906161/wp-includes/blocks/navigation/style.min.css
+[2024-04-23 21:05:14] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-23 21:05:14] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-23 21:05:14] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-23 21:05:14] [class-ss-fetch-urls-task.php:58] URL: https://jesspham.me/wp-includes/blocks/social-links/style.min.css
+[2024-04-23 21:05:14] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 40
+[2024-04-23 21:05:14] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-23 21:05:14] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6628228a4c46c-YVldkS.tmp
+[2024-04-23 21:05:14] [class-ss-page-handler.php:38] URL Prepared:https://jesspham.me/wp-includes/blocks/social-links/style.min.css?simply_static_page=156
+[2024-04-23 21:05:14] [class-ss-url-fetcher.php:251] Fetching URL: https://jesspham.me/wp-includes/blocks/social-links/style.min.css?simply_static_page=156
+[2024-04-23 21:05:14] [class-ss-url-fetcher.php:103] Filesize: 10602 bytes
+[2024-04-23 21:05:14] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-04-23 21:05:14] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/blocks/social-links/style.min.css
+[2024-04-23 21:05:14] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/6628228a4c46c-YVldkS.tmp to C:\Users\jp74h\Local Sites\jessphamme\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1713906161/wp-includes/blocks/social-links/style.min.css
+[2024-04-23 21:05:14] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-23 21:05:14] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-23 21:05:14] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-23 21:05:14] [class-ss-fetch-urls-task.php:58] URL: https://jesspham.me/wp-json/
+[2024-04-23 21:05:14] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 40
+[2024-04-23 21:05:14] [class-ss-fetch-urls-task.php:65] Excludable found: URL: https://jesspham.me/wp-json/
+[2024-04-23 21:05:14] [class-ss-fetch-urls-task.php:75] Skipping URL because it is no-save and no-follow
+[2024-04-23 21:05:14] [class-ss-fetch-urls-task.php:58] URL: https://jesspham.me/xmlrpc.php
+[2024-04-23 21:05:14] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 40
+[2024-04-23 21:05:14] [class-ss-fetch-urls-task.php:65] Excludable found: URL: https://jesspham.me/xmlrpc.php
+[2024-04-23 21:05:14] [class-ss-fetch-urls-task.php:75] Skipping URL because it is no-save and no-follow
+[2024-04-23 21:05:14] [class-ss-fetch-urls-task.php:58] URL: https://jesspham.me/wp-includes/js/dist/interactivity.min.js
+[2024-04-23 21:05:14] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 40
+[2024-04-23 21:05:14] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-23 21:05:14] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6628228a6ce95-Ar1uRu.tmp
+[2024-04-23 21:05:14] [class-ss-page-handler.php:38] URL Prepared:https://jesspham.me/wp-includes/js/dist/interactivity.min.js?simply_static_page=159
+[2024-04-23 21:05:14] [class-ss-url-fetcher.php:251] Fetching URL: https://jesspham.me/wp-includes/js/dist/interactivity.min.js?simply_static_page=159
+[2024-04-23 21:05:14] [class-ss-url-fetcher.php:103] Filesize: 35049 bytes
+[2024-04-23 21:05:14] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/x-javascript
+[2024-04-23 21:05:14] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/dist/interactivity.min.js
+[2024-04-23 21:05:14] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/6628228a6ce95-Ar1uRu.tmp to C:\Users\jp74h\Local Sites\jessphamme\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1713906161/wp-includes/js/dist/interactivity.min.js
+[2024-04-23 21:05:14] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-23 21:05:14] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-23 21:05:14] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-23 21:05:14] [class-ss-fetch-urls-task.php:58] URL: https://jesspham.me/wp-includes/blocks/navigation/view.min.js
+[2024-04-23 21:05:14] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 40
+[2024-04-23 21:05:14] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-23 21:05:14] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6628228a8ac6c-0vHB8N.tmp
+[2024-04-23 21:05:14] [class-ss-page-handler.php:38] URL Prepared:https://jesspham.me/wp-includes/blocks/navigation/view.min.js?simply_static_page=160
+[2024-04-23 21:05:14] [class-ss-url-fetcher.php:251] Fetching URL: https://jesspham.me/wp-includes/blocks/navigation/view.min.js?simply_static_page=160
+[2024-04-23 21:05:14] [class-ss-url-fetcher.php:103] Filesize: 3300 bytes
+[2024-04-23 21:05:14] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/x-javascript
+[2024-04-23 21:05:14] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/blocks/navigation/view.min.js
+[2024-04-23 21:05:14] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/6628228a8ac6c-0vHB8N.tmp to C:\Users\jp74h\Local Sites\jessphamme\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1713906161/wp-includes/blocks/navigation/view.min.js
+[2024-04-23 21:05:14] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-23 21:05:14] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-23 21:05:14] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-23 21:05:14] [class-ss-fetch-urls-task.php:58] URL: https://jesspham.me/wp-content/themes/twentytwentyfour/assets/fonts/inter/Inter-VariableFont_slnt,wght.woff2
+[2024-04-23 21:05:14] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 40
+[2024-04-23 21:05:14] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-23 21:05:14] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6628228a99e7f-RNrFT4.tmp
+[2024-04-23 21:05:14] [class-ss-page-handler.php:38] URL Prepared:https://jesspham.me/wp-content/themes/twentytwentyfour/assets/fonts/inter/Inter-VariableFont_slnt,wght.woff2?simply_static_page=161
+[2024-04-23 21:05:14] [class-ss-url-fetcher.php:251] Fetching URL: https://jesspham.me/wp-content/themes/twentytwentyfour/assets/fonts/inter/Inter-VariableFont_slnt,wght.woff2?simply_static_page=161
+[2024-04-23 21:05:14] [class-ss-url-fetcher.php:103] Filesize: 326628 bytes
+[2024-04-23 21:05:14] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/font-woff2
+[2024-04-23 21:05:14] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/fonts/inter/Inter-VariableFont_slnt,wght.woff2
+[2024-04-23 21:05:14] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/6628228a99e7f-RNrFT4.tmp to C:\Users\jp74h\Local Sites\jessphamme\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1713906161/wp-content/themes/twentytwentyfour/assets/fonts/inter/Inter-VariableFont_slnt,wght.woff2
+[2024-04-23 21:05:14] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-23 21:05:14] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-23 21:05:14] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-23 21:05:14] [class-ss-fetch-urls-task.php:58] URL: https://jesspham.me/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_400.woff2
+[2024-04-23 21:05:14] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 40
+[2024-04-23 21:05:14] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-23 21:05:14] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6628228aabfb5-NZVIzD.tmp
+[2024-04-23 21:05:14] [class-ss-page-handler.php:38] URL Prepared:https://jesspham.me/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_400.woff2?simply_static_page=162
+[2024-04-23 21:05:14] [class-ss-url-fetcher.php:251] Fetching URL: https://jesspham.me/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_400.woff2?simply_static_page=162
+[2024-04-23 21:05:14] [class-ss-url-fetcher.php:103] Filesize: 146060 bytes
+[2024-04-23 21:05:14] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/font-woff2
+[2024-04-23 21:05:14] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_400.woff2
+[2024-04-23 21:05:14] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/6628228aabfb5-NZVIzD.tmp to C:\Users\jp74h\Local Sites\jessphamme\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1713906161/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_400.woff2
+[2024-04-23 21:05:14] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-23 21:05:14] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-23 21:05:14] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-23 21:05:14] [class-ss-fetch-urls-task.php:58] URL: https://jesspham.me/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_italic_400.woff2
+[2024-04-23 21:05:14] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 40
+[2024-04-23 21:05:14] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-23 21:05:14] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6628228abde09-9kmTMF.tmp
+[2024-04-23 21:05:14] [class-ss-page-handler.php:38] URL Prepared:https://jesspham.me/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_italic_400.woff2?simply_static_page=163
+[2024-04-23 21:05:14] [class-ss-url-fetcher.php:251] Fetching URL: https://jesspham.me/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_italic_400.woff2?simply_static_page=163
+[2024-04-23 21:05:14] [class-ss-url-fetcher.php:103] Filesize: 105184 bytes
+[2024-04-23 21:05:14] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/font-woff2
+[2024-04-23 21:05:14] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_italic_400.woff2
+[2024-04-23 21:05:14] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/6628228abde09-9kmTMF.tmp to C:\Users\jp74h\Local Sites\jessphamme\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1713906161/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_italic_400.woff2
+[2024-04-23 21:05:14] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-23 21:05:14] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-23 21:05:14] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-23 21:05:14] [class-ss-fetch-urls-task.php:58] URL: https://jesspham.me/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_700.woff2
+[2024-04-23 21:05:14] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 40
+[2024-04-23 21:05:14] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-23 21:05:14] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6628228acf95d-lsVD5I.tmp
+[2024-04-23 21:05:14] [class-ss-page-handler.php:38] URL Prepared:https://jesspham.me/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_700.woff2?simply_static_page=164
+[2024-04-23 21:05:14] [class-ss-url-fetcher.php:251] Fetching URL: https://jesspham.me/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_700.woff2?simply_static_page=164
+[2024-04-23 21:05:14] [class-ss-url-fetcher.php:103] Filesize: 132564 bytes
+[2024-04-23 21:05:14] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/font-woff2
+[2024-04-23 21:05:14] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_700.woff2
+[2024-04-23 21:05:14] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/6628228acf95d-lsVD5I.tmp to C:\Users\jp74h\Local Sites\jessphamme\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1713906161/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_700.woff2
+[2024-04-23 21:05:14] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-23 21:05:14] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-23 21:05:14] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-23 21:05:14] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 2 of 40 pages/files
+[2024-04-23 21:05:14] [class-ss-archive-creation-job.php:177] We're not done with the fetch_urls task yet
+[2024-04-23 21:05:15] [class-ss-archive-creation-job.php:132] Current task: fetch_urls
+[2024-04-23 21:05:15] [class-ss-archive-creation-job.php:149] Performing task: fetch_urls
+[2024-04-23 21:05:15] [class-ss-fetch-urls-task.php:55] Total pages: 42; Pages remaining: 2
+[2024-04-23 21:05:15] [class-ss-fetch-urls-task.php:58] URL: https://jesspham.me/hello-world/
+[2024-04-23 21:05:15] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 42
+[2024-04-23 21:05:15] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-23 21:05:15] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6628228b093f9-Mlaxvy.tmp
+[2024-04-23 21:05:15] [class-ss-page-handler.php:38] URL Prepared:https://jesspham.me/hello-world/?simply_static_page=165
+[2024-04-23 21:05:15] [class-ss-url-fetcher.php:251] Fetching URL: https://jesspham.me/hello-world/?simply_static_page=165
+[2024-04-23 21:05:23] [class-ss-url-fetcher.php:103] Filesize: 74388 bytes
+[2024-04-23 21:05:23] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-04-23 21:05:23] [class-ss-url-fetcher.php:233] New filename for static page: /hello-world/index.html
+[2024-04-23 21:05:23] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/6628228b093f9-Mlaxvy.tmp to C:\Users\jp74h\Local Sites\jessphamme\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1713906161/hello-world/index.html
+[2024-04-23 21:05:23] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-23 21:05:23] [class-ss-fetch-urls-task.php:144] Adding 23 URLs to the queue
+[2024-04-23 21:05:23] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-23 21:05:23] [class-ss-fetch-urls-task.php:58] URL: http://jesspham.me/
+[2024-04-23 21:05:23] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 42
+[2024-04-23 21:05:23] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-23 21:05:23] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/66282293b959d-HrIGIP.tmp
+[2024-04-23 21:05:23] [class-ss-page-handler.php:38] URL Prepared:http://jesspham.me/?simply_static_page=166
+[2024-04-23 21:05:23] [class-ss-url-fetcher.php:251] Fetching URL: http://jesspham.me/?simply_static_page=166
+[2024-04-23 21:05:23] [class-ss-url-fetcher.php:103] Filesize: 73022 bytes
+[2024-04-23 21:05:23] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-04-23 21:05:23] [class-ss-url-fetcher.php:233] New filename for static page: /index.html
+[2024-04-23 21:05:23] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/66282293b959d-HrIGIP.tmp to C:\Users\jp74h\Local Sites\jessphamme\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1713906161/index.html
+[2024-04-23 21:05:23] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-23 21:05:24] [class-ss-fetch-urls-task.php:144] Adding 42 URLs to the queue
+[2024-04-23 21:05:24] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-23 21:05:24] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 40 of 42 pages/files
+[2024-04-23 21:05:24] [class-ss-archive-creation-job.php:177] We're not done with the fetch_urls task yet
+[2024-04-23 21:05:24] [class-ss-archive-creation-job.php:132] Current task: fetch_urls
+[2024-04-23 21:05:24] [class-ss-archive-creation-job.php:149] Performing task: fetch_urls
+[2024-04-23 21:05:24] [class-ss-fetch-urls-task.php:55] Total pages: 83; Pages remaining: 41
+[2024-04-23 21:05:24] [class-ss-fetch-urls-task.php:58] URL: https://jesspham.me/author/jp74ham/
+[2024-04-23 21:05:24] [class-ss-task.php:58] [PAGES STATUS] Remaining:41; Total: 83
+[2024-04-23 21:05:24] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-23 21:05:24] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/662822946bd9d-RBN9cE.tmp
+[2024-04-23 21:05:24] [class-ss-page-handler.php:38] URL Prepared:https://jesspham.me/author/jp74ham/?simply_static_page=167
+[2024-04-23 21:05:24] [class-ss-url-fetcher.php:251] Fetching URL: https://jesspham.me/author/jp74ham/?simply_static_page=167
+[2024-04-23 21:05:54] [class-ss-url-fetcher.php:103] Filesize: 0 bytes
+[2024-04-23 21:05:54] [class-ss-url-fetcher.php:106] We encountered an error when fetching: cURL error 28: Operation timed out after 30003 milliseconds with 0 bytes received
+[2024-04-23 21:05:54] [class-ss-url-fetcher.php:107] object(WP_Error)#962 (3) {  ["errors"]=>  array(1) {    ["http_request_failed"]=>    array(1) {      [0]=>      string(81) "cURL error 28: Operation timed out after 30003 milliseconds with 0 bytes received"    }  }  ["error_data"]=>  array(0) {  }  ["additional_data":protected]=>  array(0) {  }}
+[2024-04-23 21:05:54] [class-ss-fetch-urls-task.php:58] URL: https://jesspham.me/category/uncategorized/
+[2024-04-23 21:05:54] [class-ss-task.php:58] [PAGES STATUS] Remaining:40; Total: 83
+[2024-04-23 21:05:54] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-23 21:05:54] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/662822b273a43-ogwZXC.tmp
+[2024-04-23 21:05:54] [class-ss-page-handler.php:38] URL Prepared:https://jesspham.me/category/uncategorized/?simply_static_page=168
+[2024-04-23 21:05:54] [class-ss-url-fetcher.php:251] Fetching URL: https://jesspham.me/category/uncategorized/?simply_static_page=168
+[2024-04-23 21:05:54] [class-ss-url-fetcher.php:103] Filesize: 58032 bytes
+[2024-04-23 21:05:54] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-04-23 21:05:54] [class-ss-url-fetcher.php:233] New filename for static page: /category/uncategorized/index.html
+[2024-04-23 21:05:54] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/662822b273a43-ogwZXC.tmp to C:\Users\jp74h\Local Sites\jessphamme\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1713906161/category/uncategorized/index.html
+[2024-04-23 21:05:54] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-23 21:05:55] [class-ss-fetch-urls-task.php:144] Adding 21 URLs to the queue
+[2024-04-23 21:05:55] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-23 21:05:55] [class-ss-fetch-urls-task.php:58] URL: https://jesspham.me/hello-world/feed/
+[2024-04-23 21:05:55] [class-ss-task.php:58] [PAGES STATUS] Remaining:39; Total: 83
+[2024-04-23 21:05:55] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-23 21:05:55] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/662822b33fe07-FZ5R6g.tmp
+[2024-04-23 21:05:55] [class-ss-page-handler.php:38] URL Prepared:https://jesspham.me/hello-world/feed/?simply_static_page=169
+[2024-04-23 21:05:55] [class-ss-url-fetcher.php:251] Fetching URL: https://jesspham.me/hello-world/feed/?simply_static_page=169
+[2024-04-23 21:05:55] [class-ss-url-fetcher.php:103] Filesize: 1626 bytes
+[2024-04-23 21:05:55] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-04-23 21:05:55] [class-ss-url-fetcher.php:233] New filename for static page: /hello-world/feed/index.xml
+[2024-04-23 21:05:55] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/662822b33fe07-FZ5R6g.tmp to C:\Users\jp74h\Local Sites\jessphamme\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1713906161/hello-world/feed/index.xml
+[2024-04-23 21:05:55] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-23 21:05:55] [class-ss-fetch-urls-task.php:144] Adding 3 URLs to the queue
+[2024-04-23 21:05:55] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-23 21:05:55] [class-ss-fetch-urls-task.php:58] URL: https://jesspham.me/wp-json/wp/v2/posts/1
+[2024-04-23 21:05:55] [class-ss-task.php:58] [PAGES STATUS] Remaining:38; Total: 83
+[2024-04-23 21:05:55] [class-ss-fetch-urls-task.php:65] Excludable found: URL: https://jesspham.me/wp-json/wp/v2/posts/1
+[2024-04-23 21:05:55] [class-ss-fetch-urls-task.php:75] Skipping URL because it is no-save and no-follow
+[2024-04-23 21:05:55] [class-ss-fetch-urls-task.php:58] URL: https://jesspham.me/wp-json/oembed/1.0/embed
+[2024-04-23 21:05:55] [class-ss-task.php:58] [PAGES STATUS] Remaining:37; Total: 83
+[2024-04-23 21:05:55] [class-ss-fetch-urls-task.php:65] Excludable found: URL: https://jesspham.me/wp-json/oembed/1.0/embed
+[2024-04-23 21:05:55] [class-ss-fetch-urls-task.php:75] Skipping URL because it is no-save and no-follow
+[2024-04-23 21:05:55] [class-ss-fetch-urls-task.php:58] URL: https://jesspham.me/wp-includes/js/comment-reply.min.js
+[2024-04-23 21:05:55] [class-ss-task.php:58] [PAGES STATUS] Remaining:36; Total: 83
+[2024-04-23 21:05:55] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-23 21:05:55] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/662822b364bf0-N379kq.tmp
+[2024-04-23 21:05:55] [class-ss-page-handler.php:38] URL Prepared:https://jesspham.me/wp-includes/js/comment-reply.min.js?simply_static_page=172
+[2024-04-23 21:05:55] [class-ss-url-fetcher.php:251] Fetching URL: https://jesspham.me/wp-includes/js/comment-reply.min.js?simply_static_page=172
+[2024-04-23 21:05:55] [class-ss-url-fetcher.php:103] Filesize: 2981 bytes
+[2024-04-23 21:05:55] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/x-javascript
+[2024-04-23 21:05:55] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/comment-reply.min.js
+[2024-04-23 21:05:55] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/662822b364bf0-N379kq.tmp to C:\Users\jp74h\Local Sites\jessphamme\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1713906161/wp-includes/js/comment-reply.min.js
+[2024-04-23 21:05:55] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-23 21:05:55] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-23 21:05:55] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-23 21:05:55] [class-ss-fetch-urls-task.php:58] URL: http://jesspham.me/Interests
+[2024-04-23 21:05:55] [class-ss-task.php:58] [PAGES STATUS] Remaining:35; Total: 83
+[2024-04-23 21:05:55] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-23 21:05:55] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/662822b3749c1-7j94Gt.tmp
+[2024-04-23 21:05:55] [class-ss-page-handler.php:38] URL Prepared:http://jesspham.me/Interests?simply_static_page=173
+[2024-04-23 21:05:55] [class-ss-url-fetcher.php:251] Fetching URL: http://jesspham.me/Interests?simply_static_page=173
+[2024-04-23 21:06:25] [class-ss-url-fetcher.php:103] Filesize: 0 bytes
+[2024-04-23 21:06:25] [class-ss-url-fetcher.php:106] We encountered an error when fetching: cURL error 28: Operation timed out after 30003 milliseconds with 0 bytes received
+[2024-04-23 21:06:25] [class-ss-url-fetcher.php:107] object(WP_Error)#952 (3) {  ["errors"]=>  array(1) {    ["http_request_failed"]=>    array(1) {      [0]=>      string(81) "cURL error 28: Operation timed out after 30003 milliseconds with 0 bytes received"    }  }  ["error_data"]=>  array(0) {  }  ["additional_data":protected]=>  array(0) {  }}
+[2024-04-23 21:06:25] [class-ss-fetch-urls-task.php:58] URL: http://jesspham.me/About-Me
+[2024-04-23 21:06:25] [class-ss-task.php:58] [PAGES STATUS] Remaining:34; Total: 83
+[2024-04-23 21:06:25] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-23 21:06:25] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/662822d17c60f-6kqPC1.tmp
+[2024-04-23 21:06:25] [class-ss-page-handler.php:38] URL Prepared:http://jesspham.me/About-Me?simply_static_page=174
+[2024-04-23 21:06:25] [class-ss-url-fetcher.php:251] Fetching URL: http://jesspham.me/About-Me?simply_static_page=174
+[2024-04-23 21:06:55] [class-ss-url-fetcher.php:103] Filesize: 0 bytes
+[2024-04-23 21:06:55] [class-ss-url-fetcher.php:106] We encountered an error when fetching: cURL error 28: Operation timed out after 30016 milliseconds with 0 bytes received
+[2024-04-23 21:06:55] [class-ss-url-fetcher.php:107] object(WP_Error)#945 (3) {  ["errors"]=>  array(1) {    ["http_request_failed"]=>    array(1) {      [0]=>      string(81) "cURL error 28: Operation timed out after 30016 milliseconds with 0 bytes received"    }  }  ["error_data"]=>  array(0) {  }  ["additional_data":protected]=>  array(0) {  }}
+[2024-04-23 21:06:55] [class-ss-fetch-urls-task.php:58] URL: http://jesspham.me/wp-content/uploads/2024/04/IMG_6083-1-766x1024.jpeg
+[2024-04-23 21:06:55] [class-ss-task.php:58] [PAGES STATUS] Remaining:33; Total: 83
+[2024-04-23 21:06:55] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-23 21:06:55] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/662822ef86d2e-pHRhTy.tmp
+[2024-04-23 21:06:55] [class-ss-page-handler.php:38] URL Prepared:http://jesspham.me/wp-content/uploads/2024/04/IMG_6083-1-766x1024.jpeg?simply_static_page=175
+[2024-04-23 21:06:55] [class-ss-url-fetcher.php:251] Fetching URL: http://jesspham.me/wp-content/uploads/2024/04/IMG_6083-1-766x1024.jpeg?simply_static_page=175
+[2024-04-23 21:06:55] [class-ss-url-fetcher.php:103] Filesize: 131894 bytes
+[2024-04-23 21:06:55] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-04-23 21:06:55] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/04/IMG_6083-1-766x1024.jpeg
+[2024-04-23 21:06:55] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/662822ef86d2e-pHRhTy.tmp to C:\Users\jp74h\Local Sites\jessphamme\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1713906161/wp-content/uploads/2024/04/IMG_6083-1-766x1024.jpeg
+[2024-04-23 21:06:55] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-23 21:06:55] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-23 21:06:55] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-23 21:06:55] [class-ss-fetch-urls-task.php:58] URL: http://jesspham.me/wp-content/uploads/2024/04/IMG_6083-1-225x300.jpeg
+[2024-04-23 21:06:55] [class-ss-task.php:58] [PAGES STATUS] Remaining:32; Total: 83
+[2024-04-23 21:06:55] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-23 21:06:55] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/662822ef939ca-bRAScY.tmp
+[2024-04-23 21:06:55] [class-ss-page-handler.php:38] URL Prepared:http://jesspham.me/wp-content/uploads/2024/04/IMG_6083-1-225x300.jpeg?simply_static_page=176
+[2024-04-23 21:06:55] [class-ss-url-fetcher.php:251] Fetching URL: http://jesspham.me/wp-content/uploads/2024/04/IMG_6083-1-225x300.jpeg?simply_static_page=176
+[2024-04-23 21:06:55] [class-ss-url-fetcher.php:103] Filesize: 20289 bytes
+[2024-04-23 21:06:55] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-04-23 21:06:55] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/04/IMG_6083-1-225x300.jpeg
+[2024-04-23 21:06:55] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/662822ef939ca-bRAScY.tmp to C:\Users\jp74h\Local Sites\jessphamme\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1713906161/wp-content/uploads/2024/04/IMG_6083-1-225x300.jpeg
+[2024-04-23 21:06:55] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-23 21:06:55] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-23 21:06:55] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-23 21:06:55] [class-ss-fetch-urls-task.php:58] URL: http://jesspham.me/wp-content/uploads/2024/04/IMG_6083-1-768x1026.jpeg
+[2024-04-23 21:06:55] [class-ss-task.php:58] [PAGES STATUS] Remaining:31; Total: 83
+[2024-04-23 21:06:55] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-23 21:06:55] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/662822ef9d6bc-Zy29uy.tmp
+[2024-04-23 21:06:55] [class-ss-page-handler.php:38] URL Prepared:http://jesspham.me/wp-content/uploads/2024/04/IMG_6083-1-768x1026.jpeg?simply_static_page=177
+[2024-04-23 21:06:55] [class-ss-url-fetcher.php:251] Fetching URL: http://jesspham.me/wp-content/uploads/2024/04/IMG_6083-1-768x1026.jpeg?simply_static_page=177
+[2024-04-23 21:06:55] [class-ss-url-fetcher.php:103] Filesize: 132455 bytes
+[2024-04-23 21:06:55] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-04-23 21:06:55] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/04/IMG_6083-1-768x1026.jpeg
+[2024-04-23 21:06:55] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/662822ef9d6bc-Zy29uy.tmp to C:\Users\jp74h\Local Sites\jessphamme\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1713906161/wp-content/uploads/2024/04/IMG_6083-1-768x1026.jpeg
+[2024-04-23 21:06:55] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-23 21:06:55] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-23 21:06:55] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-23 21:06:55] [class-ss-fetch-urls-task.php:58] URL: http://jesspham.me/wp-content/uploads/2024/04/IMG_6083-1.jpeg
+[2024-04-23 21:06:55] [class-ss-task.php:58] [PAGES STATUS] Remaining:30; Total: 83
+[2024-04-23 21:06:55] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-23 21:06:55] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/662822efa6ee3-rDgjaq.tmp
+[2024-04-23 21:06:55] [class-ss-page-handler.php:38] URL Prepared:http://jesspham.me/wp-content/uploads/2024/04/IMG_6083-1.jpeg?simply_static_page=178
+[2024-04-23 21:06:55] [class-ss-url-fetcher.php:251] Fetching URL: http://jesspham.me/wp-content/uploads/2024/04/IMG_6083-1.jpeg?simply_static_page=178
+[2024-04-23 21:06:55] [class-ss-url-fetcher.php:103] Filesize: 314575 bytes
+[2024-04-23 21:06:55] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-04-23 21:06:55] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/04/IMG_6083-1.jpeg
+[2024-04-23 21:06:55] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/662822efa6ee3-rDgjaq.tmp to C:\Users\jp74h\Local Sites\jessphamme\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1713906161/wp-content/uploads/2024/04/IMG_6083-1.jpeg
+[2024-04-23 21:06:55] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-23 21:06:55] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-23 21:06:55] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-23 21:06:55] [class-ss-fetch-urls-task.php:58] URL: http://jesspham.me/wp-content/uploads/2024/04/java-1024x1024.webp
+[2024-04-23 21:06:55] [class-ss-task.php:58] [PAGES STATUS] Remaining:29; Total: 83
+[2024-04-23 21:06:55] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-23 21:06:55] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/662822efb1427-UdMi2S.tmp
+[2024-04-23 21:06:55] [class-ss-page-handler.php:38] URL Prepared:http://jesspham.me/wp-content/uploads/2024/04/java-1024x1024.webp?simply_static_page=179
+[2024-04-23 21:06:55] [class-ss-url-fetcher.php:251] Fetching URL: http://jesspham.me/wp-content/uploads/2024/04/java-1024x1024.webp?simply_static_page=179
+[2024-04-23 21:06:55] [class-ss-url-fetcher.php:103] Filesize: 17712 bytes
+[2024-04-23 21:06:55] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/webp
+[2024-04-23 21:06:55] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/04/java-1024x1024.webp
+[2024-04-23 21:06:55] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/662822efb1427-UdMi2S.tmp to C:\Users\jp74h\Local Sites\jessphamme\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1713906161/wp-content/uploads/2024/04/java-1024x1024.webp
+[2024-04-23 21:06:55] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-23 21:06:55] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-23 21:06:55] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-23 21:06:55] [class-ss-fetch-urls-task.php:58] URL: http://jesspham.me/wp-content/uploads/2024/04/java-300x300.webp
+[2024-04-23 21:06:55] [class-ss-task.php:58] [PAGES STATUS] Remaining:28; Total: 83
+[2024-04-23 21:06:55] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-23 21:06:55] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/662822efb9d3d-0Khl7Y.tmp
+[2024-04-23 21:06:55] [class-ss-page-handler.php:38] URL Prepared:http://jesspham.me/wp-content/uploads/2024/04/java-300x300.webp?simply_static_page=180
+[2024-04-23 21:06:55] [class-ss-url-fetcher.php:251] Fetching URL: http://jesspham.me/wp-content/uploads/2024/04/java-300x300.webp?simply_static_page=180
+[2024-04-23 21:06:55] [class-ss-url-fetcher.php:103] Filesize: 4822 bytes
+[2024-04-23 21:06:55] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/webp
+[2024-04-23 21:06:55] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/04/java-300x300.webp
+[2024-04-23 21:06:55] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/662822efb9d3d-0Khl7Y.tmp to C:\Users\jp74h\Local Sites\jessphamme\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1713906161/wp-content/uploads/2024/04/java-300x300.webp
+[2024-04-23 21:06:55] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-23 21:06:55] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-23 21:06:55] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-23 21:06:55] [class-ss-fetch-urls-task.php:58] URL: http://jesspham.me/wp-content/uploads/2024/04/java-150x150.webp
+[2024-04-23 21:06:55] [class-ss-task.php:58] [PAGES STATUS] Remaining:27; Total: 83
+[2024-04-23 21:06:55] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-23 21:06:55] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/662822efc156a-x1vw3U.tmp
+[2024-04-23 21:06:55] [class-ss-page-handler.php:38] URL Prepared:http://jesspham.me/wp-content/uploads/2024/04/java-150x150.webp?simply_static_page=181
+[2024-04-23 21:06:55] [class-ss-url-fetcher.php:251] Fetching URL: http://jesspham.me/wp-content/uploads/2024/04/java-150x150.webp?simply_static_page=181
+[2024-04-23 21:06:55] [class-ss-url-fetcher.php:103] Filesize: 2372 bytes
+[2024-04-23 21:06:55] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/webp
+[2024-04-23 21:06:55] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/04/java-150x150.webp
+[2024-04-23 21:06:55] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/662822efc156a-x1vw3U.tmp to C:\Users\jp74h\Local Sites\jessphamme\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1713906161/wp-content/uploads/2024/04/java-150x150.webp
+[2024-04-23 21:06:55] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-23 21:06:55] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-23 21:06:55] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-23 21:06:55] [class-ss-fetch-urls-task.php:58] URL: http://jesspham.me/wp-content/uploads/2024/04/java-768x768.webp
+[2024-04-23 21:06:55] [class-ss-task.php:58] [PAGES STATUS] Remaining:26; Total: 83
+[2024-04-23 21:06:55] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-23 21:06:55] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/662822efc8860-PnzilF.tmp
+[2024-04-23 21:06:55] [class-ss-page-handler.php:38] URL Prepared:http://jesspham.me/wp-content/uploads/2024/04/java-768x768.webp?simply_static_page=182
+[2024-04-23 21:06:55] [class-ss-url-fetcher.php:251] Fetching URL: http://jesspham.me/wp-content/uploads/2024/04/java-768x768.webp?simply_static_page=182
+[2024-04-23 21:06:55] [class-ss-url-fetcher.php:103] Filesize: 13136 bytes
+[2024-04-23 21:06:55] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/webp
+[2024-04-23 21:06:55] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/04/java-768x768.webp
+[2024-04-23 21:06:55] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/662822efc8860-PnzilF.tmp to C:\Users\jp74h\Local Sites\jessphamme\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1713906161/wp-content/uploads/2024/04/java-768x768.webp
+[2024-04-23 21:06:55] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-23 21:06:55] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-23 21:06:55] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-23 21:06:55] [class-ss-fetch-urls-task.php:58] URL: http://jesspham.me/wp-content/uploads/2024/04/java-1536x1536.webp
+[2024-04-23 21:06:55] [class-ss-task.php:58] [PAGES STATUS] Remaining:25; Total: 83
+[2024-04-23 21:06:55] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-23 21:06:55] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/662822efd01e4-9TlqXE.tmp
+[2024-04-23 21:06:55] [class-ss-page-handler.php:38] URL Prepared:http://jesspham.me/wp-content/uploads/2024/04/java-1536x1536.webp?simply_static_page=183
+[2024-04-23 21:06:55] [class-ss-url-fetcher.php:251] Fetching URL: http://jesspham.me/wp-content/uploads/2024/04/java-1536x1536.webp?simply_static_page=183
+[2024-04-23 21:06:55] [class-ss-url-fetcher.php:103] Filesize: 27060 bytes
+[2024-04-23 21:06:55] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/webp
+[2024-04-23 21:06:55] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/04/java-1536x1536.webp
+[2024-04-23 21:06:55] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/662822efd01e4-9TlqXE.tmp to C:\Users\jp74h\Local Sites\jessphamme\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1713906161/wp-content/uploads/2024/04/java-1536x1536.webp
+[2024-04-23 21:06:55] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-23 21:06:55] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-23 21:06:55] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-23 21:06:55] [class-ss-fetch-urls-task.php:58] URL: http://jesspham.me/wp-content/uploads/2024/04/java.webp
+[2024-04-23 21:06:55] [class-ss-task.php:58] [PAGES STATUS] Remaining:24; Total: 83
+[2024-04-23 21:06:55] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-23 21:06:55] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/662822efd87d6-MOZV7N.tmp
+[2024-04-23 21:06:55] [class-ss-page-handler.php:38] URL Prepared:http://jesspham.me/wp-content/uploads/2024/04/java.webp?simply_static_page=184
+[2024-04-23 21:06:55] [class-ss-url-fetcher.php:251] Fetching URL: http://jesspham.me/wp-content/uploads/2024/04/java.webp?simply_static_page=184
+[2024-04-23 21:06:55] [class-ss-url-fetcher.php:103] Filesize: 28256 bytes
+[2024-04-23 21:06:55] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/webp
+[2024-04-23 21:06:55] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/04/java.webp
+[2024-04-23 21:06:55] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/662822efd87d6-MOZV7N.tmp to C:\Users\jp74h\Local Sites\jessphamme\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1713906161/wp-content/uploads/2024/04/java.webp
+[2024-04-23 21:06:55] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-23 21:06:55] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-23 21:06:55] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-23 21:06:55] [class-ss-fetch-urls-task.php:58] URL: http://jesspham.me/wp-content/uploads/2024/04/c-911x1024.webp
+[2024-04-23 21:06:55] [class-ss-task.php:58] [PAGES STATUS] Remaining:23; Total: 83
+[2024-04-23 21:06:55] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-23 21:06:55] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/662822efdf6c2-AcULbA.tmp
+[2024-04-23 21:06:55] [class-ss-page-handler.php:38] URL Prepared:http://jesspham.me/wp-content/uploads/2024/04/c-911x1024.webp?simply_static_page=185
+[2024-04-23 21:06:55] [class-ss-url-fetcher.php:251] Fetching URL: http://jesspham.me/wp-content/uploads/2024/04/c-911x1024.webp?simply_static_page=185
+[2024-04-23 21:06:55] [class-ss-url-fetcher.php:103] Filesize: 31802 bytes
+[2024-04-23 21:06:55] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/webp
+[2024-04-23 21:06:55] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/04/c-911x1024.webp
+[2024-04-23 21:06:55] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/662822efdf6c2-AcULbA.tmp to C:\Users\jp74h\Local Sites\jessphamme\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1713906161/wp-content/uploads/2024/04/c-911x1024.webp
+[2024-04-23 21:06:55] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-23 21:06:55] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-23 21:06:55] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-23 21:06:55] [class-ss-fetch-urls-task.php:58] URL: http://jesspham.me/wp-content/uploads/2024/04/c-267x300.webp
+[2024-04-23 21:06:55] [class-ss-task.php:58] [PAGES STATUS] Remaining:22; Total: 83
+[2024-04-23 21:06:55] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-23 21:06:55] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/662822efe8b7e-7l6X0r.tmp
+[2024-04-23 21:06:55] [class-ss-page-handler.php:38] URL Prepared:http://jesspham.me/wp-content/uploads/2024/04/c-267x300.webp?simply_static_page=186
+[2024-04-23 21:06:55] [class-ss-url-fetcher.php:251] Fetching URL: http://jesspham.me/wp-content/uploads/2024/04/c-267x300.webp?simply_static_page=186
+[2024-04-23 21:06:55] [class-ss-url-fetcher.php:103] Filesize: 9128 bytes
+[2024-04-23 21:06:55] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/webp
+[2024-04-23 21:06:55] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/04/c-267x300.webp
+[2024-04-23 21:06:55] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/662822efe8b7e-7l6X0r.tmp to C:\Users\jp74h\Local Sites\jessphamme\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1713906161/wp-content/uploads/2024/04/c-267x300.webp
+[2024-04-23 21:06:55] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-23 21:06:55] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-23 21:06:55] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-23 21:06:55] [class-ss-fetch-urls-task.php:58] URL: http://jesspham.me/wp-content/uploads/2024/04/c-768x863.webp
+[2024-04-23 21:06:55] [class-ss-task.php:58] [PAGES STATUS] Remaining:21; Total: 83
+[2024-04-23 21:06:55] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-23 21:06:55] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/662822eff0216-PQKvFZ.tmp
+[2024-04-23 21:06:55] [class-ss-page-handler.php:38] URL Prepared:http://jesspham.me/wp-content/uploads/2024/04/c-768x863.webp?simply_static_page=187
+[2024-04-23 21:06:55] [class-ss-url-fetcher.php:251] Fetching URL: http://jesspham.me/wp-content/uploads/2024/04/c-768x863.webp?simply_static_page=187
+[2024-04-23 21:06:55] [class-ss-url-fetcher.php:103] Filesize: 26352 bytes
+[2024-04-23 21:06:55] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/webp
+[2024-04-23 21:06:55] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/04/c-768x863.webp
+[2024-04-23 21:06:55] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/662822eff0216-PQKvFZ.tmp to C:\Users\jp74h\Local Sites\jessphamme\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1713906161/wp-content/uploads/2024/04/c-768x863.webp
+[2024-04-23 21:06:56] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-23 21:06:56] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-23 21:06:56] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-23 21:06:56] [class-ss-fetch-urls-task.php:58] URL: http://jesspham.me/wp-content/uploads/2024/04/c.webp
+[2024-04-23 21:06:56] [class-ss-task.php:58] [PAGES STATUS] Remaining:20; Total: 83
+[2024-04-23 21:06:56] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-23 21:06:56] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/662822f00344a-tqs0XT.tmp
+[2024-04-23 21:06:56] [class-ss-page-handler.php:38] URL Prepared:http://jesspham.me/wp-content/uploads/2024/04/c.webp?simply_static_page=188
+[2024-04-23 21:06:56] [class-ss-url-fetcher.php:251] Fetching URL: http://jesspham.me/wp-content/uploads/2024/04/c.webp?simply_static_page=188
+[2024-04-23 21:06:56] [class-ss-url-fetcher.php:103] Filesize: 17308 bytes
+[2024-04-23 21:06:56] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/webp
+[2024-04-23 21:06:56] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/04/c.webp
+[2024-04-23 21:06:56] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/662822f00344a-tqs0XT.tmp to C:\Users\jp74h\Local Sites\jessphamme\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1713906161/wp-content/uploads/2024/04/c.webp
+[2024-04-23 21:06:56] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-23 21:06:56] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-23 21:06:56] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-23 21:06:56] [class-ss-fetch-urls-task.php:58] URL: http://jesspham.me/wp-content/uploads/2024/04/c-1.png
+[2024-04-23 21:06:56] [class-ss-task.php:58] [PAGES STATUS] Remaining:19; Total: 83
+[2024-04-23 21:06:56] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-23 21:06:56] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/662822f00bc51-jfeL67.tmp
+[2024-04-23 21:06:56] [class-ss-page-handler.php:38] URL Prepared:http://jesspham.me/wp-content/uploads/2024/04/c-1.png?simply_static_page=189
+[2024-04-23 21:06:56] [class-ss-url-fetcher.php:251] Fetching URL: http://jesspham.me/wp-content/uploads/2024/04/c-1.png?simply_static_page=189
+[2024-04-23 21:06:56] [class-ss-url-fetcher.php:103] Filesize: 18369 bytes
+[2024-04-23 21:06:56] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-04-23 21:06:56] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/04/c-1.png
+[2024-04-23 21:06:56] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/662822f00bc51-jfeL67.tmp to C:\Users\jp74h\Local Sites\jessphamme\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1713906161/wp-content/uploads/2024/04/c-1.png
+[2024-04-23 21:06:56] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-23 21:06:56] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-23 21:06:56] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-23 21:06:56] [class-ss-fetch-urls-task.php:58] URL: http://jesspham.me/wp-content/uploads/2024/04/c-1-300x300.png
+[2024-04-23 21:06:56] [class-ss-task.php:58] [PAGES STATUS] Remaining:18; Total: 83
+[2024-04-23 21:06:56] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-23 21:06:56] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/662822f013614-bc29Vu.tmp
+[2024-04-23 21:06:56] [class-ss-page-handler.php:38] URL Prepared:http://jesspham.me/wp-content/uploads/2024/04/c-1-300x300.png?simply_static_page=190
+[2024-04-23 21:06:56] [class-ss-url-fetcher.php:251] Fetching URL: http://jesspham.me/wp-content/uploads/2024/04/c-1-300x300.png?simply_static_page=190
+[2024-04-23 21:06:56] [class-ss-url-fetcher.php:103] Filesize: 16492 bytes
+[2024-04-23 21:06:56] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-04-23 21:06:56] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/04/c-1-300x300.png
+[2024-04-23 21:06:56] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/662822f013614-bc29Vu.tmp to C:\Users\jp74h\Local Sites\jessphamme\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1713906161/wp-content/uploads/2024/04/c-1-300x300.png
+[2024-04-23 21:06:56] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-23 21:06:56] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-23 21:06:56] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-23 21:06:56] [class-ss-fetch-urls-task.php:58] URL: http://jesspham.me/wp-content/uploads/2024/04/c-1-150x150.png
+[2024-04-23 21:06:56] [class-ss-task.php:58] [PAGES STATUS] Remaining:17; Total: 83
+[2024-04-23 21:06:56] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-23 21:06:56] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/662822f01e025-tPczxK.tmp
+[2024-04-23 21:06:56] [class-ss-page-handler.php:38] URL Prepared:http://jesspham.me/wp-content/uploads/2024/04/c-1-150x150.png?simply_static_page=191
+[2024-04-23 21:06:56] [class-ss-url-fetcher.php:251] Fetching URL: http://jesspham.me/wp-content/uploads/2024/04/c-1-150x150.png?simply_static_page=191
+[2024-04-23 21:06:56] [class-ss-url-fetcher.php:103] Filesize: 7391 bytes
+[2024-04-23 21:06:56] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-04-23 21:06:56] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/04/c-1-150x150.png
+[2024-04-23 21:06:56] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/662822f01e025-tPczxK.tmp to C:\Users\jp74h\Local Sites\jessphamme\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1713906161/wp-content/uploads/2024/04/c-1-150x150.png
+[2024-04-23 21:06:56] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-23 21:06:56] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-23 21:06:56] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-23 21:06:56] [class-ss-fetch-urls-task.php:58] URL: http://jesspham.me/wp-content/uploads/2024/04/producing-300x175.jpeg
+[2024-04-23 21:06:56] [class-ss-task.php:58] [PAGES STATUS] Remaining:16; Total: 83
+[2024-04-23 21:06:56] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-23 21:06:56] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/662822f02501c-VjGNyJ.tmp
+[2024-04-23 21:06:56] [class-ss-page-handler.php:38] URL Prepared:http://jesspham.me/wp-content/uploads/2024/04/producing-300x175.jpeg?simply_static_page=192
+[2024-04-23 21:06:56] [class-ss-url-fetcher.php:251] Fetching URL: http://jesspham.me/wp-content/uploads/2024/04/producing-300x175.jpeg?simply_static_page=192
+[2024-04-23 21:06:56] [class-ss-url-fetcher.php:103] Filesize: 14266 bytes
+[2024-04-23 21:06:56] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-04-23 21:06:56] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/04/producing-300x175.jpeg
+[2024-04-23 21:06:56] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/662822f02501c-VjGNyJ.tmp to C:\Users\jp74h\Local Sites\jessphamme\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1713906161/wp-content/uploads/2024/04/producing-300x175.jpeg
+[2024-04-23 21:06:56] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-23 21:06:56] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-23 21:06:56] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-23 21:06:56] [class-ss-fetch-urls-task.php:58] URL: http://jesspham.me/wp-content/uploads/2024/04/producing-768x448.jpeg
+[2024-04-23 21:06:56] [class-ss-task.php:58] [PAGES STATUS] Remaining:15; Total: 83
+[2024-04-23 21:06:56] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-23 21:06:56] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/662822f02c24f-ZrM8Ti.tmp
+[2024-04-23 21:06:56] [class-ss-page-handler.php:38] URL Prepared:http://jesspham.me/wp-content/uploads/2024/04/producing-768x448.jpeg?simply_static_page=193
+[2024-04-23 21:06:56] [class-ss-url-fetcher.php:251] Fetching URL: http://jesspham.me/wp-content/uploads/2024/04/producing-768x448.jpeg?simply_static_page=193
+[2024-04-23 21:06:56] [class-ss-url-fetcher.php:103] Filesize: 63616 bytes
+[2024-04-23 21:06:56] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-04-23 21:06:56] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/04/producing-768x448.jpeg
+[2024-04-23 21:06:56] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/662822f02c24f-ZrM8Ti.tmp to C:\Users\jp74h\Local Sites\jessphamme\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1713906161/wp-content/uploads/2024/04/producing-768x448.jpeg
+[2024-04-23 21:06:56] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-23 21:06:56] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-23 21:06:56] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-23 21:06:56] [class-ss-fetch-urls-task.php:58] URL: http://jesspham.me/wp-content/uploads/2024/04/producing-1536x896.jpeg
+[2024-04-23 21:06:56] [class-ss-task.php:58] [PAGES STATUS] Remaining:14; Total: 83
+[2024-04-23 21:06:56] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-23 21:06:56] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/662822f0336ba-pK1KWl.tmp
+[2024-04-23 21:06:56] [class-ss-page-handler.php:38] URL Prepared:http://jesspham.me/wp-content/uploads/2024/04/producing-1536x896.jpeg?simply_static_page=194
+[2024-04-23 21:06:56] [class-ss-url-fetcher.php:251] Fetching URL: http://jesspham.me/wp-content/uploads/2024/04/producing-1536x896.jpeg?simply_static_page=194
+[2024-04-23 21:06:56] [class-ss-url-fetcher.php:103] Filesize: 178370 bytes
+[2024-04-23 21:06:56] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-04-23 21:06:56] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/04/producing-1536x896.jpeg
+[2024-04-23 21:06:56] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/662822f0336ba-pK1KWl.tmp to C:\Users\jp74h\Local Sites\jessphamme\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1713906161/wp-content/uploads/2024/04/producing-1536x896.jpeg
+[2024-04-23 21:06:56] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-23 21:06:56] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-23 21:06:56] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-23 21:06:56] [class-ss-fetch-urls-task.php:58] URL: http://jesspham.me/wp-content/uploads/2024/04/producing-2048x1195.jpeg
+[2024-04-23 21:06:56] [class-ss-task.php:58] [PAGES STATUS] Remaining:13; Total: 83
+[2024-04-23 21:06:56] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-23 21:06:56] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/662822f03aeb5-T7i8v0.tmp
+[2024-04-23 21:06:56] [class-ss-page-handler.php:38] URL Prepared:http://jesspham.me/wp-content/uploads/2024/04/producing-2048x1195.jpeg?simply_static_page=195
+[2024-04-23 21:06:56] [class-ss-url-fetcher.php:251] Fetching URL: http://jesspham.me/wp-content/uploads/2024/04/producing-2048x1195.jpeg?simply_static_page=195
+[2024-04-23 21:06:56] [class-ss-url-fetcher.php:103] Filesize: 270704 bytes
+[2024-04-23 21:06:56] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-04-23 21:06:56] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/04/producing-2048x1195.jpeg
+[2024-04-23 21:06:56] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/662822f03aeb5-T7i8v0.tmp to C:\Users\jp74h\Local Sites\jessphamme\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1713906161/wp-content/uploads/2024/04/producing-2048x1195.jpeg
+[2024-04-23 21:06:56] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-23 21:06:56] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-23 21:06:56] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-23 21:06:56] [class-ss-fetch-urls-task.php:58] URL: http://jesspham.me/feed/
+[2024-04-23 21:06:56] [class-ss-task.php:58] [PAGES STATUS] Remaining:12; Total: 83
+[2024-04-23 21:06:56] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-23 21:06:56] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/662822f0441af-Q1b1kX.tmp
+[2024-04-23 21:06:56] [class-ss-page-handler.php:38] URL Prepared:http://jesspham.me/feed/?simply_static_page=196
+[2024-04-23 21:06:56] [class-ss-url-fetcher.php:251] Fetching URL: http://jesspham.me/feed/?simply_static_page=196
+[2024-04-23 21:07:26] [class-ss-url-fetcher.php:103] Filesize: 0 bytes
+[2024-04-23 21:07:26] [class-ss-url-fetcher.php:106] We encountered an error when fetching: cURL error 28: Operation timed out after 30003 milliseconds with 0 bytes received
+[2024-04-23 21:07:26] [class-ss-url-fetcher.php:107] object(WP_Error)#924 (3) {  ["errors"]=>  array(1) {    ["http_request_failed"]=>    array(1) {      [0]=>      string(81) "cURL error 28: Operation timed out after 30003 milliseconds with 0 bytes received"    }  }  ["error_data"]=>  array(0) {  }  ["additional_data":protected]=>  array(0) {  }}
+[2024-04-23 21:07:26] [class-ss-fetch-urls-task.php:58] URL: http://jesspham.me/comments/feed/
+[2024-04-23 21:07:26] [class-ss-task.php:58] [PAGES STATUS] Remaining:11; Total: 83
+[2024-04-23 21:07:26] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-23 21:07:26] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6628230e4b85f-c2ZgAd.tmp
+[2024-04-23 21:07:26] [class-ss-page-handler.php:38] URL Prepared:http://jesspham.me/comments/feed/?simply_static_page=197
+[2024-04-23 21:07:26] [class-ss-url-fetcher.php:251] Fetching URL: http://jesspham.me/comments/feed/?simply_static_page=197
+[2024-04-23 21:07:56] [class-ss-url-fetcher.php:103] Filesize: 0 bytes
+[2024-04-23 21:07:56] [class-ss-url-fetcher.php:106] We encountered an error when fetching: cURL error 28: Operation timed out after 30005 milliseconds with 0 bytes received
+[2024-04-23 21:07:56] [class-ss-url-fetcher.php:107] object(WP_Error)#906 (3) {  ["errors"]=>  array(1) {    ["http_request_failed"]=>    array(1) {      [0]=>      string(81) "cURL error 28: Operation timed out after 30005 milliseconds with 0 bytes received"    }  }  ["error_data"]=>  array(0) {  }  ["additional_data":protected]=>  array(0) {  }}
+[2024-04-23 21:07:56] [class-ss-fetch-urls-task.php:58] URL: http://jesspham.me/wp-includes/blocks/navigation/style.min.css
+[2024-04-23 21:07:56] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 83
+[2024-04-23 21:07:56] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-23 21:07:56] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6628232c53af1-gpxUAr.tmp
+[2024-04-23 21:07:56] [class-ss-page-handler.php:38] URL Prepared:http://jesspham.me/wp-includes/blocks/navigation/style.min.css?simply_static_page=198
+[2024-04-23 21:07:56] [class-ss-url-fetcher.php:251] Fetching URL: http://jesspham.me/wp-includes/blocks/navigation/style.min.css?simply_static_page=198
+[2024-04-23 21:07:56] [class-ss-url-fetcher.php:103] Filesize: 16484 bytes
+[2024-04-23 21:07:56] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-04-23 21:07:56] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/blocks/navigation/style.min.css
+[2024-04-23 21:07:56] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/6628232c53af1-gpxUAr.tmp to C:\Users\jp74h\Local Sites\jessphamme\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1713906161/wp-includes/blocks/navigation/style.min.css
+[2024-04-23 21:07:56] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-23 21:07:56] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-23 21:07:56] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-23 21:07:56] [class-ss-fetch-urls-task.php:58] URL: http://jesspham.me/wp-includes/blocks/social-links/style.min.css
+[2024-04-23 21:07:56] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 83
+[2024-04-23 21:07:56] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-23 21:07:56] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6628232c6bdfc-yuFEiI.tmp
+[2024-04-23 21:07:56] [class-ss-page-handler.php:38] URL Prepared:http://jesspham.me/wp-includes/blocks/social-links/style.min.css?simply_static_page=199
+[2024-04-23 21:07:56] [class-ss-url-fetcher.php:251] Fetching URL: http://jesspham.me/wp-includes/blocks/social-links/style.min.css?simply_static_page=199
+[2024-04-23 21:07:56] [class-ss-url-fetcher.php:103] Filesize: 10602 bytes
+[2024-04-23 21:07:56] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-04-23 21:07:56] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/blocks/social-links/style.min.css
+[2024-04-23 21:07:56] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/6628232c6bdfc-yuFEiI.tmp to C:\Users\jp74h\Local Sites\jessphamme\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1713906161/wp-includes/blocks/social-links/style.min.css
+[2024-04-23 21:07:56] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-23 21:07:56] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-23 21:07:56] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-23 21:07:56] [class-ss-fetch-urls-task.php:58] URL: http://jesspham.me/wp-json/
+[2024-04-23 21:07:56] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 83
+[2024-04-23 21:07:56] [class-ss-fetch-urls-task.php:65] Excludable found: URL: http://jesspham.me/wp-json/
+[2024-04-23 21:07:56] [class-ss-fetch-urls-task.php:75] Skipping URL because it is no-save and no-follow
+[2024-04-23 21:07:56] [class-ss-fetch-urls-task.php:58] URL: http://jesspham.me/xmlrpc.php
+[2024-04-23 21:07:56] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 83
+[2024-04-23 21:07:56] [class-ss-fetch-urls-task.php:65] Excludable found: URL: http://jesspham.me/xmlrpc.php
+[2024-04-23 21:07:56] [class-ss-fetch-urls-task.php:75] Skipping URL because it is no-save and no-follow
+[2024-04-23 21:07:56] [class-ss-fetch-urls-task.php:58] URL: http://jesspham.me/wp-includes/js/dist/interactivity.min.js
+[2024-04-23 21:07:56] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 83
+[2024-04-23 21:07:56] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-23 21:07:56] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6628232c842c4-sjI7lF.tmp
+[2024-04-23 21:07:56] [class-ss-page-handler.php:38] URL Prepared:http://jesspham.me/wp-includes/js/dist/interactivity.min.js?simply_static_page=202
+[2024-04-23 21:07:56] [class-ss-url-fetcher.php:251] Fetching URL: http://jesspham.me/wp-includes/js/dist/interactivity.min.js?simply_static_page=202
+[2024-04-23 21:07:56] [class-ss-url-fetcher.php:103] Filesize: 35049 bytes
+[2024-04-23 21:07:56] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/x-javascript
+[2024-04-23 21:07:56] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/dist/interactivity.min.js
+[2024-04-23 21:07:56] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/6628232c842c4-sjI7lF.tmp to C:\Users\jp74h\Local Sites\jessphamme\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1713906161/wp-includes/js/dist/interactivity.min.js
+[2024-04-23 21:07:56] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-23 21:07:56] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-23 21:07:56] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-23 21:07:56] [class-ss-fetch-urls-task.php:58] URL: http://jesspham.me/wp-includes/blocks/navigation/view.min.js
+[2024-04-23 21:07:56] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 83
+[2024-04-23 21:07:56] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-23 21:07:56] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6628232c9a3e0-F8AYYu.tmp
+[2024-04-23 21:07:56] [class-ss-page-handler.php:38] URL Prepared:http://jesspham.me/wp-includes/blocks/navigation/view.min.js?simply_static_page=203
+[2024-04-23 21:07:56] [class-ss-url-fetcher.php:251] Fetching URL: http://jesspham.me/wp-includes/blocks/navigation/view.min.js?simply_static_page=203
+[2024-04-23 21:07:56] [class-ss-url-fetcher.php:103] Filesize: 3300 bytes
+[2024-04-23 21:07:56] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/x-javascript
+[2024-04-23 21:07:56] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/blocks/navigation/view.min.js
+[2024-04-23 21:07:56] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/6628232c9a3e0-F8AYYu.tmp to C:\Users\jp74h\Local Sites\jessphamme\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1713906161/wp-includes/blocks/navigation/view.min.js
+[2024-04-23 21:07:56] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-23 21:07:56] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-23 21:07:56] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-23 21:07:56] [class-ss-fetch-urls-task.php:58] URL: http://jesspham.me/wp-content/themes/twentytwentyfour/assets/fonts/inter/Inter-VariableFont_slnt,wght.woff2
+[2024-04-23 21:07:56] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 83
+[2024-04-23 21:07:56] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-23 21:07:56] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6628232ca1f81-vlE1Ya.tmp
+[2024-04-23 21:07:56] [class-ss-page-handler.php:38] URL Prepared:http://jesspham.me/wp-content/themes/twentytwentyfour/assets/fonts/inter/Inter-VariableFont_slnt,wght.woff2?simply_static_page=204
+[2024-04-23 21:07:56] [class-ss-url-fetcher.php:251] Fetching URL: http://jesspham.me/wp-content/themes/twentytwentyfour/assets/fonts/inter/Inter-VariableFont_slnt,wght.woff2?simply_static_page=204
+[2024-04-23 21:07:56] [class-ss-url-fetcher.php:103] Filesize: 326628 bytes
+[2024-04-23 21:07:56] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/font-woff2
+[2024-04-23 21:07:56] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/fonts/inter/Inter-VariableFont_slnt,wght.woff2
+[2024-04-23 21:07:56] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/6628232ca1f81-vlE1Ya.tmp to C:\Users\jp74h\Local Sites\jessphamme\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1713906161/wp-content/themes/twentytwentyfour/assets/fonts/inter/Inter-VariableFont_slnt,wght.woff2
+[2024-04-23 21:07:56] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-23 21:07:56] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-23 21:07:56] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-23 21:07:56] [class-ss-fetch-urls-task.php:58] URL: http://jesspham.me/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_400.woff2
+[2024-04-23 21:07:56] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 83
+[2024-04-23 21:07:56] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-23 21:07:56] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6628232cab591-gitija.tmp
+[2024-04-23 21:07:56] [class-ss-page-handler.php:38] URL Prepared:http://jesspham.me/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_400.woff2?simply_static_page=205
+[2024-04-23 21:07:56] [class-ss-url-fetcher.php:251] Fetching URL: http://jesspham.me/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_400.woff2?simply_static_page=205
+[2024-04-23 21:07:56] [class-ss-url-fetcher.php:103] Filesize: 146060 bytes
+[2024-04-23 21:07:56] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/font-woff2
+[2024-04-23 21:07:56] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_400.woff2
+[2024-04-23 21:07:56] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/6628232cab591-gitija.tmp to C:\Users\jp74h\Local Sites\jessphamme\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1713906161/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_400.woff2
+[2024-04-23 21:07:56] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-23 21:07:56] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-23 21:07:56] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-23 21:07:56] [class-ss-fetch-urls-task.php:58] URL: http://jesspham.me/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_italic_400.woff2
+[2024-04-23 21:07:56] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 83
+[2024-04-23 21:07:56] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-23 21:07:56] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6628232cb3650-SY3sh8.tmp
+[2024-04-23 21:07:56] [class-ss-page-handler.php:38] URL Prepared:http://jesspham.me/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_italic_400.woff2?simply_static_page=206
+[2024-04-23 21:07:56] [class-ss-url-fetcher.php:251] Fetching URL: http://jesspham.me/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_italic_400.woff2?simply_static_page=206
+[2024-04-23 21:07:56] [class-ss-url-fetcher.php:103] Filesize: 105184 bytes
+[2024-04-23 21:07:56] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/font-woff2
+[2024-04-23 21:07:56] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_italic_400.woff2
+[2024-04-23 21:07:56] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/6628232cb3650-SY3sh8.tmp to C:\Users\jp74h\Local Sites\jessphamme\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1713906161/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_italic_400.woff2
+[2024-04-23 21:07:56] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-23 21:07:56] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-23 21:07:56] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-23 21:07:56] [class-ss-fetch-urls-task.php:58] URL: http://jesspham.me/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_700.woff2
+[2024-04-23 21:07:56] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 83
+[2024-04-23 21:07:56] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-23 21:07:56] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6628232cbef5b-9xGsPr.tmp
+[2024-04-23 21:07:56] [class-ss-page-handler.php:38] URL Prepared:http://jesspham.me/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_700.woff2?simply_static_page=207
+[2024-04-23 21:07:56] [class-ss-url-fetcher.php:251] Fetching URL: http://jesspham.me/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_700.woff2?simply_static_page=207
+[2024-04-23 21:07:56] [class-ss-url-fetcher.php:103] Filesize: 132564 bytes
+[2024-04-23 21:07:56] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/font-woff2
+[2024-04-23 21:07:56] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_700.woff2
+[2024-04-23 21:07:56] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/6628232cbef5b-9xGsPr.tmp to C:\Users\jp74h\Local Sites\jessphamme\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1713906161/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_700.woff2
+[2024-04-23 21:07:56] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-23 21:07:56] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-23 21:07:56] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-23 21:07:56] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 42 of 83 pages/files
+[2024-04-23 21:07:56] [class-ss-archive-creation-job.php:177] We're not done with the fetch_urls task yet
+[2024-04-23 21:07:58] [class-ss-archive-creation-job.php:132] Current task: fetch_urls
+[2024-04-23 21:07:58] [class-ss-archive-creation-job.php:149] Performing task: fetch_urls
+[2024-04-23 21:07:58] [class-ss-fetch-urls-task.php:55] Total pages: 85; Pages remaining: 2
+[2024-04-23 21:07:58] [class-ss-fetch-urls-task.php:58] URL: https://jesspham.me/category/uncategorized/feed/
+[2024-04-23 21:07:58] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 85
+[2024-04-23 21:07:58] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-23 21:07:58] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6628232e05ef8-enHu8j.tmp
+[2024-04-23 21:07:58] [class-ss-page-handler.php:38] URL Prepared:https://jesspham.me/category/uncategorized/feed/?simply_static_page=208
+[2024-04-23 21:07:58] [class-ss-url-fetcher.php:251] Fetching URL: https://jesspham.me/category/uncategorized/feed/?simply_static_page=208
+[2024-04-23 21:08:28] [class-ss-url-fetcher.php:103] Filesize: 0 bytes
+[2024-04-23 21:08:28] [class-ss-url-fetcher.php:106] We encountered an error when fetching: cURL error 28: Operation timed out after 30016 milliseconds with 0 bytes received
+[2024-04-23 21:08:28] [class-ss-url-fetcher.php:107] object(WP_Error)#811 (3) {  ["errors"]=>  array(1) {    ["http_request_failed"]=>    array(1) {      [0]=>      string(81) "cURL error 28: Operation timed out after 30016 milliseconds with 0 bytes received"    }  }  ["error_data"]=>  array(0) {  }  ["additional_data":protected]=>  array(0) {  }}
+[2024-04-23 21:08:28] [class-ss-fetch-urls-task.php:58] URL: https://jesspham.me/wp-json/wp/v2/categories/1
+[2024-04-23 21:08:28] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 85
+[2024-04-23 21:08:28] [class-ss-fetch-urls-task.php:65] Excludable found: URL: https://jesspham.me/wp-json/wp/v2/categories/1
+[2024-04-23 21:08:28] [class-ss-fetch-urls-task.php:75] Skipping URL because it is no-save and no-follow
+[2024-04-23 21:08:28] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 83 of 85 pages/files
+[2024-04-23 21:08:28] [class-ss-archive-creation-job.php:177] We're not done with the fetch_urls task yet
+[2024-04-23 21:08:33] [class-ss-archive-creation-job.php:132] Current task: fetch_urls
+[2024-04-23 21:08:33] [class-ss-archive-creation-job.php:149] Performing task: fetch_urls
+[2024-04-23 21:08:33] [class-ss-fetch-urls-task.php:55] Total pages: 85; Pages remaining: 0
+[2024-04-23 21:08:33] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 85 of 85 pages/files
+[2024-04-23 21:08:33] [class-ss-archive-creation-job.php:171] We've found our next task: create_zip_archive
+[2024-04-23 21:08:33] [class-ss-archive-creation-job.php:132] Current task: create_zip_archive
+[2024-04-23 21:08:33] [class-ss-archive-creation-job.php:149] Performing task: create_zip_archive
+[2024-04-23 21:08:33] [class-ss-create-zip-archive.php:71] Fetching list of files to include in zip
+[2024-04-23 21:08:33] [class-ss-create-zip-archive.php:80] Creating zip archive
+[2024-04-23 21:08:33] [class-ss-task.php:44] Status message: [create_zip_archive] ZIP archive created:  <a href="https://jesspham.me/wp-content/uploads/simply-static/temp-files/simply-static-1-1713906161.zip">Click here to download</a>
+[2024-04-23 21:08:33] [class-ss-archive-creation-job.php:171] We've found our next task: wrapup
+[2024-04-23 21:08:33] [class-ss-archive-creation-job.php:132] Current task: wrapup
+[2024-04-23 21:08:33] [class-ss-archive-creation-job.php:149] Performing task: wrapup
+[2024-04-23 21:08:33] [class-ss-wrapup-task.php:22] Deleting temporary files
+[2024-04-23 21:08:33] [class-ss-task.php:44] Status message: [wrapup] Wrapping up
+[2024-04-23 21:08:33] [class-ss-archive-creation-job.php:166] This task is done and there are no more tasks, time to complete the job
+[2024-04-23 21:08:33] [class-ss-archive-creation-job.php:193] Completing the job
+[2024-04-23 21:08:33] [class-ss-archive-creation-job.php:320] Status message: [done] Done! Finished in 00:05:52
+[2024-05-04 03:31:12] [class-ss-url-fetcher.php:251] Fetching URL: https://jesspham.me
