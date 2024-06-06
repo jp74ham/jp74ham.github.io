@@ -37,3 +37,49 @@
 [2024-06-06 01:36:13] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6661128dd6cc3-F2NIxz.tmp
 [2024-06-06 01:36:13] [class-ss-page-handler.php:38] URL Prepared:http://jesstest.local/1717637774?simply_static_page=0
 [2024-06-06 01:36:13] [class-ss-url-fetcher.php:251] Fetching URL: http://jesstest.local/1717637774?simply_static_page=0
+[2024-06-06 01:40:43] [class-ss-archive-creation-job.php:136] Current task: generate_404
+[2024-06-06 01:40:43] [class-ss-archive-creation-job.php:153] Performing task: generate_404
+[2024-06-06 01:40:43] [class-ss-task.php:44] Status message: [generate_404] Generating 404 Page.
+[2024-06-06 01:40:43] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6661139bee566-pXXgIE.tmp
+[2024-06-06 01:40:43] [class-ss-page-handler.php:38] URL Prepared:http://jesstest.local/1717638044?simply_static_page=0
+[2024-06-06 01:40:43] [class-ss-url-fetcher.php:251] Fetching URL: http://jesstest.local/1717638044?simply_static_page=0
+[2024-06-06 01:40:45] [class-ss-url-fetcher.php:103] Filesize: 0 bytes
+[2024-06-06 01:40:45] [class-ss-url-fetcher.php:106] We encountered an error when fetching: cURL error 56: Recv failure: Connection was reset
+[2024-06-06 01:40:45] [class-ss-url-fetcher.php:107] object(WP_Error)#806 (3) {  ["errors"]=>  array(1) {    ["http_request_failed"]=>    array(1) {      [0]=>      string(49) "cURL error 56: Recv failure: Connection was reset"    }  }  ["error_data"]=>  array(0) {  }  ["additional_data":protected]=>  array(0) {  }}
+[2024-06-06 01:40:45] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6661139d4ee90-6yWpNF.tmp
+[2024-06-06 01:40:45] [class-ss-page-handler.php:38] URL Prepared:http://jesstest.local/1717638045?simply_static_page=0
+[2024-06-06 01:40:45] [class-ss-url-fetcher.php:251] Fetching URL: http://jesstest.local/1717638045?simply_static_page=0
+[2024-06-06 01:41:15] [class-ss-url-fetcher.php:103] Filesize: 0 bytes
+[2024-06-06 01:41:15] [class-ss-url-fetcher.php:106] We encountered an error when fetching: cURL error 28: Operation timed out after 30001 milliseconds with 0 bytes received
+[2024-06-06 01:41:15] [class-ss-url-fetcher.php:107] object(WP_Error)#827 (3) {  ["errors"]=>  array(1) {    ["http_request_failed"]=>    array(1) {      [0]=>      string(81) "cURL error 28: Operation timed out after 30001 milliseconds with 0 bytes received"    }  }  ["error_data"]=>  array(0) {  }  ["additional_data":protected]=>  array(0) {  }}
+[2024-06-06 01:41:15] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/666113bb50a23-WklMFy.tmp
+[2024-06-06 01:41:15] [class-ss-page-handler.php:38] URL Prepared:http://jesstest.local/1717638046?simply_static_page=0
+[2024-06-06 01:41:15] [class-ss-url-fetcher.php:251] Fetching URL: http://jesstest.local/1717638046?simply_static_page=0
+[2024-06-06 01:41:45] [class-ss-url-fetcher.php:103] Filesize: 0 bytes
+[2024-06-06 01:41:45] [class-ss-url-fetcher.php:106] We encountered an error when fetching: cURL error 28: Operation timed out after 30014 milliseconds with 0 bytes received
+[2024-06-06 01:41:45] [class-ss-url-fetcher.php:107] object(WP_Error)#831 (3) {  ["errors"]=>  array(1) {    ["http_request_failed"]=>    array(1) {      [0]=>      string(81) "cURL error 28: Operation timed out after 30014 milliseconds with 0 bytes received"    }  }  ["error_data"]=>  array(0) {  }  ["additional_data":protected]=>  array(0) {  }}
+[2024-06-06 01:41:45] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/666113d955fd4-jhNlvd.tmp
+[2024-06-06 01:41:45] [class-ss-page-handler.php:38] URL Prepared:http://jesstest.local/1717638047?simply_static_page=0
+[2024-06-06 01:41:45] [class-ss-url-fetcher.php:251] Fetching URL: http://jesstest.local/1717638047?simply_static_page=0
+[2024-06-06 01:41:45] [class-ss-url-fetcher.php:103] Filesize: 57830 bytes
+[2024-06-06 01:41:45] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
+[2024-06-06 01:41:45] [class-ss-url-fetcher.php:233] New filename for static page: 404/index.html
+[2024-06-06 01:41:45] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/666113d955fd4-jhNlvd.tmp to C:\Users\jp74h\Local Sites\jesstest\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1717637736\404/index.html
+[2024-06-06 01:41:45] [class-ss-generate-404-task.php:119] Replacing URLs in the static file
+[2024-06-06 01:41:45] [class-ss-generate-404-task.php:125] We're saving this URL; keeping the static file
+[2024-06-06 01:41:45] [class-ss-page.php:125] Checking Content Identical:23791fb0484e03128d4d1ab4cd9a70eb2a3ea655===. Value: TRUE
+[2024-06-06 01:41:45] [class-ss-task.php:44] Status message: [generate_404] 404 Page generated
+[2024-06-06 01:41:45] [class-ss-archive-creation-job.php:175] We've found our next task: create_zip_archive
+[2024-06-06 01:41:51] [class-ss-archive-creation-job.php:136] Current task: create_zip_archive
+[2024-06-06 01:41:51] [class-ss-archive-creation-job.php:153] Performing task: create_zip_archive
+[2024-06-06 01:41:51] [class-ss-create-zip-archive.php:71] Fetching list of files to include in zip
+[2024-06-06 01:41:51] [class-ss-create-zip-archive.php:80] Creating zip archive
+[2024-06-06 01:41:51] [class-ss-task.php:44] Status message: [create_zip_archive] ZIP archive created:  <a href="http://jesstest.local/wp-content/uploads/simply-static/temp-files/simply-static-1-1717637736.zip">Click here to download</a>
+[2024-06-06 01:41:51] [class-ss-archive-creation-job.php:175] We've found our next task: wrapup
+[2024-06-06 01:41:51] [class-ss-archive-creation-job.php:136] Current task: wrapup
+[2024-06-06 01:41:51] [class-ss-archive-creation-job.php:153] Performing task: wrapup
+[2024-06-06 01:41:51] [class-ss-wrapup-task.php:22] Deleting temporary files
+[2024-06-06 01:41:51] [class-ss-task.php:44] Status message: [wrapup] Wrapping up
+[2024-06-06 01:41:51] [class-ss-archive-creation-job.php:170] This task is done and there are no more tasks, time to complete the job
+[2024-06-06 01:41:51] [class-ss-archive-creation-job.php:197] Completing the job
+[2024-06-06 01:41:51] [class-ss-archive-creation-job.php:324] Status message: [done] Done! Finished in 00:06:15
